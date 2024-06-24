@@ -11,7 +11,7 @@ $loop_item = <<<HTML
 <div class="row">
   <div class="col">{$row['Title']}</div>
   <div class="col">
-    <figure>
+    <figure class="post-thumb">
       <img src="$img_url" style="width:320px; height:180px">
       <figcaption>{$date}</figcaption>
     </figure>

@@ -78,3 +78,8 @@ body {
 .warn::before {
   content: "⚠️";
 }
+
+
+.post-thumb img {
+  background: #333;
+}
