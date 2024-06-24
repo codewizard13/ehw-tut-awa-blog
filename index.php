@@ -27,6 +27,36 @@ include_once 'includes/dbh.inc.php';
     $img_path = 'https://elijahstreams.com/images/faces/';
     echo "<h3>IMG_PATH: " . $img_path . "</h3>";
 
+    // FUNCTIONS
+    function remote_file_exists($file_url) {
+
+        echo "<h4 class='msg error'>Hey!</h4>";
+        // Ensure this is url
+        if ( strpos($file_url, "://") === false ) {
+            echo "<h4 class='msg'>This is NOT a remote URL</h4>";
+            return false;
+        }
+
+        /**
+         * #GOTCHA: Handling for if the image loaded or not is a bit complicated :(
+         *  If we use the CodexWorld `fopen` example it takes a lot of time,
+         *  very bad performance: https://www.codexworld.com/how-to/check-if-remote-file-exists-url-php
+         */
+        // Open file as readonly
+        // $handle = @fopen($file_url, 'r');
+
+        // // Check if file exists
+        // if (!$handle) {
+        //     echo '<h4 class="msg warn">File NOT FOUND :(</h4>';
+
+        //     return false;
+        // } else {
+        //     echo '<h4 class="msg">File EXISTS!</h4>';
+        //     return true;
+        // }
+
+
+    }
 
     // Get SQL query
     $sql = "SELECT * FROM videos;";
@@ -71,7 +101,7 @@ include_once 'includes/dbh.inc.php';
 
                     // Handle image names missing extensions
                     if (!str_ends_with(strtolower($pic_filename), '.jpg')) {
-                        echo "<span class='error'>Pic Filename: [$pic_filename]</span>";
+                        echo "<span class='msg error'>Pic Filename: [$pic_filename]</span>";
                         $pic_filename .= '.jpg';
                     }
                     $img_url = $img_path . $pic_filename;
@@ -81,8 +111,15 @@ include_once 'includes/dbh.inc.php';
                     $img_url = '/pix/placeholder__1024x683.png';
                 }
 
-                if (file_exists($img_url) && getimagesize($img_url)) {
+                // Check if file exists: If local path or remote
+
+
+                // if (file_exists($img_url) && getimagesize($img_url)) {
+                if (file_exists($img_url) || remote_file_exists($img_url)) {
                     echo "<h3>File Path EXISTS: $img_url</h3>";
+                } else {
+                    echo "<h3>File Path DOES NOT EXIST: $img_url</h3>";
+
                 }
 
 
