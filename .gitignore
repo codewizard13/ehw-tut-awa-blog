@@ -124,6 +124,7 @@ token.json
 
 # Sandboxes & Junk Files
 sb/
+_sb/
 sandbox/
 playground/
 junk/
