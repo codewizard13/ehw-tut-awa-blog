@@ -114,11 +114,7 @@ include_once 'includes/dbh.inc.php';
                 echo "   <div class='col'>" . $row['Title'] . "</div>";
                 echo "   <div class='col'>";
 
-                $img1 = $row['image1'];
-                $img2 = $row['image2'];
-                $img3 = $row['image3'];
-
-                $img_url = pick_img([$img1, $img2, $img3]);
+                $img_url = pick_img([$row['image1'], $row['image2'], $row['image3']]);
 
                 // Get publish date
                 $date = date("l, F d, Y", strtotime($row['Publish_Date']));
