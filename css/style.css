@@ -40,19 +40,38 @@ body {
   border-right: solid gray 1px; */
 }
 
-.error {
-  border: solid 2px brown;
+.msg {
   border-radius: .3rem;
-  background: lightpink;
-  color: brown;
   display: inline-block;
   padding: .2rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: normal;
   font-size: .8rem;
   margin: .2rem;
+
+  background: lightblue;
+  color: navy;
+  border: solid 2px navy;
+}
+.msg::before {
+  content: "📋";
+  font-size: .8rem;
+}
+
+.error {
+  background: lightpink;
+  color: brown;
+  border-color: brown;
 }
 .error::before {
   content: "❗";
-  font-size: .8rem;
+}
+
+.warn {
+  background: lightyellow;
+  color: saddlebrown;
+  border-color: saddlebrown;
+}
+.warn::before {
+  content: "⚠️";
 }
