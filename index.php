@@ -50,22 +50,34 @@ include_once 'includes/dbh.inc.php';
 
                 $img_url = '';
 
-                // Get working image (prefere img 1, fastest load)
-                if (isset($row['image1'])) {
-                    $img_url = $img_path . $row['image1'];
-                } elseif (isset($row['image2'])) {
-                    $img_url = $img_path . $row['image2'];
-                } elseif (isset($row['image3'])) {
-                    $img_url = $img_path . $row['image3'];
+                // If we have a filename in one of the 3 fields,
+                //  (prefer img 1, fastest load)
+                if (isset($row['image1']) || isset($row['image2']) || isset($row['image3'])) {
+
+                    if (isset($row['image1'])) {
+                        $img_url = $img_path . $row['image1'];
+                    } elseif (isset($row['image2'])) {
+                        $img_url = $img_path . $row['image2'];
+                    } elseif (isset($row['image3'])) {
+                        $img_url = $img_path . $row['image3'];
+                    }
+
+                    // Handle image names missing extensions
+                    if (!str_ends_with(strtolower($img_url), '.jpg')) {
+                        $img_url .= '.jpg';
+                    }
+                    
+                    // Else, we don't have any images so use placeholder instead
                 } else {
-                    $img_url = '<span class="error">NO IMAGE PROVIDED</span>';
+                    $img_url = 'pix/placeholder__1024x683.png';
                 }
 
-                echo "<h3>" . gettype($row['Publish_Date']);
+
+
                 // Get publish date
                 $date = date("l, F d, Y", strtotime($row['Publish_Date']));
                 // $pub_date = date_format($date, "l, F m, Y");
-
+        
                 ?>
                 <figure>
                     <img src="<?php echo $img_url; ?>">
