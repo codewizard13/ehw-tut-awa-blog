@@ -13,6 +13,9 @@ body {
   border: solid navy 3px;
   width: 80%;
   margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .row {
@@ -26,7 +29,7 @@ body {
   margin-bottom: .2rem;
   background: bisque;
   align-items: stretch;
-
+  flex-direction: column;
 }
 
 /* Any element that is direct child of .row */

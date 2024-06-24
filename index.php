@@ -84,7 +84,7 @@ include_once 'includes/dbh.inc.php';
         } else {
             // Ensure image names have .jpg extension
             if (!str_ends_with(strtolower($pic_filename), '.jpg')) {
-                echo "<span class='msg error'>Pic Filename: [$pic_filename]</span>";
+                // echo "<span class='msg error'>Pic Filename: [$pic_filename]</span>";
                 $pic_filename .= '.jpg';
             }
             $img_url = IMG_ROOT_URL . $pic_filename;
