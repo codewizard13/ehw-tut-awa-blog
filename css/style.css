@@ -24,11 +24,19 @@ body {
   align-items: flex-start;
   /* flex: 1 !important; */
   margin-bottom: .2rem;
+  background: bisque;
+  align-items: stretch;
+
+}
+
+/* Any element that is direct child of .row */
+.row > * {
+  flex: 1;
+  border-right: solid gray 1px;
 }
 
 .col {
-  flex: 1;
-  background: bisque;
-  border-right: solid gray 1px;
+  /* flex: 1;
+  border-right: solid gray 1px; */
 }
 
