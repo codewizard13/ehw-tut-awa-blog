@@ -61,14 +61,16 @@ include_once 'includes/dbh.inc.php';
                     $img_url = '<span class="error">NO IMAGE PROVIDED</span>';
                 }
 
+                echo "<h3>" . gettype($row['Publish_Date']);
                 // Get publish date
-                $date = date_create($row['Publish_Date']);
-                $pub_date = date_format($date, "l, F m, Y");
+                $date = date("l, F d, Y", strtotime($row['Publish_Date']));
+                // $pub_date = date_format($date, "l, F m, Y");
 
                 ?>
                 <figure>
                     <img src="<?php echo $img_url; ?>">
-                    <figcaption><?php echo $row['Publish_Date']; ?></figcaption>
+                    <figcaption><?php echo $row['Publish_Date'] . "<br>"; ?><?php echo $date; ?></figcaption>
+
                 </figure>
 
                 <?php
