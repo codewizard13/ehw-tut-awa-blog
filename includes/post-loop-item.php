@@ -1,25 +1,25 @@
-<?php
-echo "<div class='row'>";
-                echo "   <div class='col'>" . $row['Title'] . "</div>";
-                echo "   <div class='col'>";
+<?php // post-loop-item.php
 
-                $img_url = pick_img([$row['image1'], $row['image2'], $row['image3']]);
+// Get the image full path
+$img_url = pick_img([$row['image1'], $row['image2'], $row['image3']]);
 
-                // Get publish date
-                $date = date("l, F d, Y", strtotime($row['Publish_Date']));
-                // $pub_date = date_format($date, "l, F m, Y");
-        
-                ?>
-                <h4><?php echo "\$img_url = $img_url"; ?></h4>
-                <figure>
-                    <img src="<?php echo $img_url; ?>" style="width:320px; height:180px">
-                    <figcaption><?php echo $row['Publish_Date'] . "<br>"; ?><?php echo $date; ?></figcaption>
+// Get publish date
+$date = date("l, F d, Y", strtotime($row['Publish_Date']));
 
-                </figure>
+// Define loop item layout
+$loop_item = <<<HTML
+<div class="row">
+  <div class="col">{$row['Title']}</div>
+  <div class="col">
+    <figure>
+      <img src="$img_url" style="width:320px; height:180px">
+      <figcaption>{$date}</figcaption>
+    </figure>
+  </div>
+  <div class="col">{$row['Blurb']}</div>
+</div>
 
-                <?php
-                echo "</div>";
+HTML;
 
-                echo "   <div class='col'>" . $row['Blurb'] . "</div>";
+echo $loop_item;
 
-                echo "</div>";
