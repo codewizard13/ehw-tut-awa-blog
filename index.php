@@ -39,7 +39,7 @@ include_once 'includes/dbh.inc.php';
         }
 
         return true;
-    
+
     }
 
     /**
@@ -54,9 +54,6 @@ include_once 'includes/dbh.inc.php';
 
         $use_local = false;
 
-        echo "<pre>" . print_r($args, true) . "</pre>";
-        // exit;
-    
         $img1 = $args[0];
         $img2 = $args[1];
         $img3 = $args[2];
@@ -82,9 +79,8 @@ include_once 'includes/dbh.inc.php';
 
         }
 
-        if ($use_local || $pic_filename == '') {
+        if ($use_local || !isset($pic_filename)) {
             $img_url = '/pix/placeholder__1024x683.png';
-
         } else {
             // Ensure image names have .jpg extension
             if (!str_ends_with(strtolower($pic_filename), '.jpg')) {
