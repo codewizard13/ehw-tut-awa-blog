@@ -40,3 +40,19 @@ body {
   border-right: solid gray 1px; */
 }
 
+.error {
+  border: solid 2px brown;
+  border-radius: .3rem;
+  background: lightpink;
+  color: brown;
+  display: inline-block;
+  padding: .2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: normal;
+  font-size: .8rem;
+  margin: .2rem;
+}
+.error::before {
+  content: "❗";
+  font-size: .8rem;
+}

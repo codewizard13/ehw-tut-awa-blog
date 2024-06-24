@@ -48,30 +48,42 @@ include_once 'includes/dbh.inc.php';
                 echo "   <div class='col'>" . $row['Title'] . "</div>";
                 echo "   <div class='col'>";
 
-                $img_url = '';
+                $img1 = $row['image1'];
+                $img2 = $row['image2'];
+                $img3 = $row['image3'];
 
                 // If we have a filename in one of the 3 fields,
                 //  (prefer img 1, fastest load)
-                if (isset($row['image1']) || isset($row['image2']) || isset($row['image3'])) {
+                if (
+                    isset($img1) && '' != $img1
+                    || isset($img2) && '' != $img2
+                    || isset($img3) && '' != $img3
+                ) {
 
+                    // Set the pic filename
                     if (isset($row['image1'])) {
-                        $img_url = $img_path . $row['image1'];
+                        $pic_filename = trim($row['image1']);
                     } elseif (isset($row['image2'])) {
-                        $img_url = $img_path . $row['image2'];
+                        $pic_filename = trim($row['image2']);
                     } elseif (isset($row['image3'])) {
-                        $img_url = $img_path . $row['image3'];
+                        $pic_filename = trim($row['image3']);
                     }
 
                     // Handle image names missing extensions
-                    if (!str_ends_with(strtolower($img_url), '.jpg')) {
-                        $img_url .= '.jpg';
+                    if (!str_ends_with(strtolower($pic_filename), '.jpg')) {
+                        echo "<span class='error'>Pic Filename: [$pic_filename]</span>";
+                        $pic_filename .= '.jpg';
                     }
-                    
+                    $img_url = $img_path . $pic_filename;
+
                     // Else, we don't have any images so use placeholder instead
                 } else {
-                    $img_url = 'pix/placeholder__1024x683.png';
+                    $img_url = '/pix/placeholder__1024x683.png';
                 }
 
+                if (file_exists($img_url) && getimagesize($img_url)) {
+                    echo "<h3>File Path EXISTS: $img_url</h3>";
+                }
 
 
                 // Get publish date
@@ -79,8 +91,9 @@ include_once 'includes/dbh.inc.php';
                 // $pub_date = date_format($date, "l, F m, Y");
         
                 ?>
+                <h4><?php echo "\$img_url = $img_url"; ?></h4>
                 <figure>
-                    <img src="<?php echo $img_url; ?>">
+                    <img src="<?php echo $img_url; ?>" style="width:320px; height:180px">
                     <figcaption><?php echo $row['Publish_Date'] . "<br>"; ?><?php echo $date; ?></figcaption>
 
                 </figure>
