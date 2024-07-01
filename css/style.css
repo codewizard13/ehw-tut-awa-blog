@@ -39,11 +39,6 @@ body {
   gap: .4rem;
 }
 
-/* Any element that is direct child of .card */
-.card > * {
-  /* flex: 1; */
-}
-
 .col {
   /* flex: 1;
   border-right: solid gray 1px; */
