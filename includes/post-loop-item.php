@@ -16,7 +16,7 @@ $loop_item = <<<HTML
       <figcaption>{$date}</figcaption>
     </figure>
   </div>
-  <div class="col">{$row['Blurb']}</div>
+  <div class="col truncate">{$row['Blurb']}</div>
 </article>
 
 HTML;

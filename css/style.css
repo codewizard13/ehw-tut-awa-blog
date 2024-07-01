@@ -86,3 +86,13 @@ body {
 .post-thumb img {
   background: #333;
 }
+
+
+
+
+.truncate {
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Display 3 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
