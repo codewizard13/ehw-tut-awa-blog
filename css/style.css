@@ -80,6 +80,20 @@ body {
   overflow: hidden;
 }
 
+.blurb,
+.blurb > * {
+  font-size: .8rem;
+  font-weight: 400 !important;
+}
+
+.blurb {
+  border: solid 1px #333;
+  border-radius: .4rem;
+  padding: 1rem;
+  background: aliceblue;
+  filter: lighten(.9);
+}
+
 
 /* ////////// MESSAGE & ERROR STYLES //////////// */
 
