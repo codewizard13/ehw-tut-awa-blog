@@ -14,18 +14,18 @@ $single_url = 'includes/post-single.php' . $url_query_get;
 // Define loop item layout
 $loop_item = <<<HTML
   <article class="card">
-    <div class="col">
+    <div class="card-sec">
       <a href="{$single_url}">
         <h3 class="card-title">{$row['Title']}</h3>
       </a>
     </div>
-    <div class="col">
+    <div class="card-sec">
       <figure class="post-thumb">
         <img src="$img_url" style="width:320px; height:180px">
         <figcaption>{$date}</figcaption>
       </figure>
     </div>
-    <div class="col truncate">
+    <div class="card-sec truncate">
       <div class="blurb">{$row['Blurb']}</div>
     </div>
   </article>

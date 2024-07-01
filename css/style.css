@@ -39,11 +39,8 @@ body {
   gap: .4rem;
 }
 
-.col {
-  /* flex: 1;
-  border-right: solid gray 1px; */
+.card-sec {
   max-width: 100%;
-
 }
 
 .post-thumb {
@@ -162,3 +159,9 @@ body {
 p {
   font-size: clamp(1rem, 0.84426rem + 0.65574vw, 1.5rem);
 } */
+
+
+
+
+
+/* ////////// SINGLE POST //////////// */
