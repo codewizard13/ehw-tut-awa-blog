@@ -25,7 +25,7 @@ body {
   /* justify-content: space-between; */
   align-items: flex-start;
   /* flex: 1 !important; */
-  margin-bottom: .2rem;
+  margin-bottom: 0.2rem;
   background: bisque;
   align-items: stretch;
   flex-direction: column;
@@ -33,7 +33,7 @@ body {
   /* width: calc(100%/3); */
   /* width: 100%; */
   width: 27%;
-  margin: .2rem;
+  margin: 0.2rem;
   padding: 1rem;
 }
 
@@ -50,13 +50,13 @@ body {
 }
 
 .msg {
-  border-radius: .3rem;
+  border-radius: 0.3rem;
   display: inline-block;
-  padding: .2rem;
+  padding: 0.2rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: normal;
-  font-size: .8rem;
-  margin: .2rem;
+  font-size: 0.8rem;
+  margin: 0.2rem;
 
   background: lightblue;
   color: navy;
@@ -64,7 +64,7 @@ body {
 }
 .msg::before {
   content: "📋";
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 .error {
@@ -85,19 +85,14 @@ body {
   content: "⚠️";
 }
 
-
 .post-thumb {
   padding: 0;
   margin: 0 auto;
 }
 
-
 .post-thumb img {
   background: #333;
 }
-
-
-
 
 .truncate {
   display: -webkit-box;
@@ -105,3 +100,30 @@ body {
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+
+/* ////////// HEADER RESPONSIVE CLAMP DEFAULTS //////////// */
+
+/* h1 {
+  font-size: clamp(1.8125rem, 1.05328rem + 3.19672vw, 4.25rem);
+}
+h2 {
+  font-size: clamp(1.5rem, 0.97439rem + 2.21311vw, 3.1875rem);
+}
+h3 {
+  font-size: clamp(1.25rem, 0.89959rem + 1.47541vw, 2.375rem);
+}
+h4 {
+  font-size: clamp(1.0625rem, 0.82889rem + 0.98361vw, 1.8125rem);
+}
+h5 {
+  font-size: clamp(0.875rem, 0.71926rem + 0.65574vw, 1.375rem);
+}
+h6 {
+  font-size: clamp(0.75rem, 0.67213rem + 0.32787vw, 1rem);
+}
+body {
+  font-size: clamp(1rem, 0.84426rem + 0.65574vw, 1.5rem);
+}
+p {
+  font-size: clamp(1rem, 0.84426rem + 0.65574vw, 1.5rem);
+} */
