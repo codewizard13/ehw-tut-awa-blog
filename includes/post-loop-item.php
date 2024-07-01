@@ -9,6 +9,7 @@ $date = date("l, F d, Y", strtotime($row['Publish_Date']));
 // Define URL query string to pass to post-single
 $url_query_get = "?post_title=" . $row['Title'];
 $url_query_get .= "&pub_date=" . $date;
+$url_query_get .= "&img_url=" . $img_url;
 $single_url = 'includes/post-single.php' . $url_query_get;
 
 // Define loop item layout

@@ -19,6 +19,10 @@
 
 <body class="single">
 
+
+<main>
+MAIN
+
 <article>
         
     <h1><?php
@@ -27,6 +31,14 @@
         ?>
     </h1>
 
+    <figure class="post-thumb">
+        <img src="<?php 
+            if (isset($_GET['img_url']))
+                echo $_GET['img_url'];
+        ?>">
+        <figcaption>{$date}</figcaption>
+    </figure>
+
     <section class="post-meta"><?php
         if (isset($_GET['pub_date']))
             echo $_GET['pub_date'];
@@ -34,8 +46,10 @@
     </section>
 
 </article>
-
-
+</main>
+<aside class="sidebar">
+    SIDEBAR
+</aside>
 
 
 

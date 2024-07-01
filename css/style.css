@@ -165,3 +165,25 @@ p {
 
 
 /* ////////// SINGLE POST //////////// */
+
+body.single {
+  display: flex;
+}
+
+.single main {
+
+  flex: 1 1 70%;
+  background: bisque;
+
+}
+.single .sidebar {
+  background: aliceblue;
+  flex: 0 0 250px;
+}
+
+.single figure img {
+  width: clamp(100px, 600px, 25vw) !important;
+  border: 6px purple solid;
+  
+}
+
