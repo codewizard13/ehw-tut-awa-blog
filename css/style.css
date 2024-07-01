@@ -66,6 +66,10 @@ body {
 .card-title {
   color: teal;
   font-size: 1.2rem !important;
+  filter: brightness(0.6);
+}
+.card-title:hover {
+  filter: brightness(0.9);
 }
 
 
