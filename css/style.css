@@ -41,7 +41,6 @@ body {
 /* Any element that is direct child of .card */
 .card > * {
   /* flex: 1; */
-  border-right: solid gray 1px;
   max-width: 100%;
 }
 
