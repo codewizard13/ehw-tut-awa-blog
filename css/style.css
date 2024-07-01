@@ -9,21 +9,20 @@ body {
   border: solid 1px gray;
 }
 
-.container {
+.cards {
   border: solid navy 3px;
   width: 80%;
   margin: 0 auto;
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .card {
   display: flex;
   border: solid 1px gray;
   border-bottom: solid 3px cadetblue;
-  flex-direction: row;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: flex-start;
   /* flex: 1 !important; */
   margin-bottom: .2rem;
@@ -33,11 +32,12 @@ body {
   flex-grow: 1;
   width: calc(100%/3);
   /* width: 100%; */
+
 }
 
 /* Any element that is direct child of .card */
 .card > * {
-  flex: 1;
+  /* flex: 1; */
   border-right: solid gray 1px;
 }
 

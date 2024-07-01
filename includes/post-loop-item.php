@@ -8,7 +8,7 @@ $date = date("l, F d, Y", strtotime($row['Publish_Date']));
 
 // Define loop item layout
 $loop_item = <<<HTML
-<div class="card">
+<article class="card">
   <div class="col">{$row['Title']}</div>
   <div class="col">
     <figure class="post-thumb">
@@ -17,7 +17,7 @@ $loop_item = <<<HTML
     </figure>
   </div>
   <div class="col">{$row['Blurb']}</div>
-</div>
+</article>
 
 HTML;
 

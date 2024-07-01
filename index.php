@@ -105,7 +105,7 @@ include_once 'includes/dbh.inc.php';
     if ($resultCheck > 0) {
 
         ?>
-        <section class="container">
+        <section class="cards">
             <?php
 
             // Posts loop
