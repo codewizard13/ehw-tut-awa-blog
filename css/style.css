@@ -23,7 +23,7 @@ body {
   display: flex;
   border: solid 1px gray;
   border-bottom: solid 3px cadetblue;
-  /* justify-content: space-between; */
+  justify-content: space-between;
   align-items: flex-start;
   /* flex: 1 !important; */
   margin-bottom: 0.2rem;
@@ -35,19 +35,54 @@ body {
   /* width: 100%; */
   width: 27%;
   margin: 0.2rem;
-  padding: 1rem;
+  padding: .2rem .8rem 2rem;
+  gap: .4rem;
 }
 
 /* Any element that is direct child of .card */
 .card > * {
   /* flex: 1; */
-  max-width: 100%;
 }
 
 .col {
   /* flex: 1;
   border-right: solid gray 1px; */
+  max-width: 100%;
+
 }
+
+.post-thumb {
+  padding: 0;
+  margin: 0 auto;
+}
+
+.post-thumb figcaption {
+  color: red;
+  font-style: italic;
+  font-size: .8rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.post-thumb img {
+  background: #333;
+}
+
+.card-title {
+  color: teal;
+  font-size: 1.2rem !important;
+}
+
+
+.truncate {
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Display 3 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+
+/* ////////// MESSAGE & ERROR STYLES //////////// */
 
 .msg {
   border-radius: 0.3rem;
@@ -85,21 +120,8 @@ body {
   content: "⚠️";
 }
 
-.post-thumb {
-  padding: 0;
-  margin: 0 auto;
-}
 
-.post-thumb img {
-  background: #333;
-}
 
-.truncate {
-  display: -webkit-box;
-  -webkit-line-clamp: 3; /* Display 3 lines */
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
 
 /* ////////// HEADER RESPONSIVE CLAMP DEFAULTS //////////// */
 
