@@ -9,7 +9,9 @@ $date = date("l, F d, Y", strtotime($row['Publish_Date']));
 // Define loop item layout
 $loop_item = <<<HTML
 <article class="card">
-  <div class="col">{$row['Title']}</div>
+  <div class="col">
+    <h3 class="card-title">{$row['Title']}</h3>
+  </div>
   <div class="col">
     <figure class="post-thumb">
       <img src="$img_url" style="width:320px; height:180px">
