@@ -30,15 +30,18 @@ body {
   align-items: stretch;
   flex-direction: column;
   flex-grow: 1;
-  width: calc(100%/3);
+  /* width: calc(100%/3); */
   /* width: 100%; */
-
+  width: 27%;
+  margin: .2rem;
+  padding: 1rem;
 }
 
 /* Any element that is direct child of .card */
 .card > * {
   /* flex: 1; */
   border-right: solid gray 1px;
+  max-width: 100%;
 }
 
 .col {
@@ -80,6 +83,12 @@ body {
 }
 .warn::before {
   content: "⚠️";
+}
+
+
+.post-thumb {
+  padding: 0;
+  margin: 0 auto;
 }
 
 
