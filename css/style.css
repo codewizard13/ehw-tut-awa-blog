@@ -30,6 +30,9 @@ body {
   background: bisque;
   align-items: stretch;
   flex-direction: column;
+  flex-grow: 1;
+  /* width: calc(100%/3); */
+  width: 100%;
 }
 
 /* Any element that is direct child of .row */
