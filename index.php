@@ -1,5 +1,5 @@
 <?php
-include_once 'includes/dbh.inc.php';
+include_once 'inc/dbh.inc.php';
 /**
  * Author:          Eric Hepperle
  * Date Created:    06/21/24
@@ -111,7 +111,7 @@ include_once 'includes/dbh.inc.php';
             // Posts loop
             while ($row = mysqli_fetch_assoc($result)) {
 
-                include 'includes/post-loop-item.php';
+                include 'inc/post-loop-item.php';
 
             }
 

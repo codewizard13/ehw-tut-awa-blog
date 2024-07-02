@@ -10,7 +10,8 @@ $date = date("l, F d, Y", strtotime($row['Publish_Date']));
 $url_query_get = "?post_title=" . $row['Title'];
 $url_query_get .= "&pub_date=" . $date;
 $url_query_get .= "&img_url=" . $img_url;
-$single_url = 'includes/post-single.php' . $url_query_get;
+// $url_query_get .= "&blurb=" . $row['Blurb'];
+$single_url = 'inc/post-single.php' . $url_query_get;
 
 // Define loop item layout
 $loop_item = <<<HTML

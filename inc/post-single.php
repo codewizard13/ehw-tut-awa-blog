@@ -45,6 +45,12 @@ MAIN
         ?>
     </section>
 
+    <section class="blurb"><?php
+        if (isset($_GET['blurb']))
+            echo $_GET['blurb'];
+        ?>
+    </section>
+
 </article>
 </main>
 <aside class="sidebar">
