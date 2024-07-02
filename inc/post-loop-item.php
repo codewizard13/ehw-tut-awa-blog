@@ -1,4 +1,5 @@
 <?php // post-loop-item.php
+session_start();
 
 // Get the image full path
 $img_url = pick_img([$row['image1'], $row['image2'], $row['image3']]);
@@ -10,7 +11,8 @@ $date = date("l, F d, Y", strtotime($row['Publish_Date']));
 $url_query_get = "?post_title=" . $row['Title'];
 $url_query_get .= "&pub_date=" . $date;
 $url_query_get .= "&img_url=" . $img_url;
-// $url_query_get .= "&blurb=" . $row['Blurb'];
+$url_query_get .= "&blurb=" . $row['Blurb'];
+$single_url = 'inc/post-single.php' . $url_query_get;
 $single_url = 'inc/post-single.php' . $url_query_get;
 
 // Define loop item layout

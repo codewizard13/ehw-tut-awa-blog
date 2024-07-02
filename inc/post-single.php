@@ -5,6 +5,9 @@
  */
 // Following this tut: 
 //  https://www.youtube.com/watch?v=_O3UCmObj5k&ab_channel=JamalProgrammingTips
+
+session_start();
+
 ?>
 
 <!DOCTYPE html>
