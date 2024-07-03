@@ -43,7 +43,7 @@ function dump($arr) // TO BE DELETED -- Only use for DEV not PROD !!!
 
 
 /**
- * Get records from table (filters optional).
+ * Get all records from table (filters optional).
  * 
  * Return all records from a MySQL database, or filter by conditions
  *  and limit if present. Default limit is one - If there are thousands
@@ -98,7 +98,53 @@ function selectAll($table, $conditions = [], $limit = 1)
 
 
 
+/**
+ * Get one record from table (filters optional).
+ * 
+ * Return all records from a MySQL database, or filter by conditions
+ *  and limit if present. Default limit is one - If there are thousands
+ *  of records, defaulting to 1 will prevent browser crashing.
+ * 
+ * @param string $table the table name
+ * @param array $conditions the options for the where clause
+ * 
+ * @return array 
+ */
+function selectOne($table, $conditions)
+{
 
+  global $conn;
+
+  $sql = "SELECT * FROM $table";
+
+
+  // return records that match conditons ...
+
+  $i = 0; // counter
+  foreach ($conditions as $key => $value) {
+    if ($i === 0) {
+      // If it is is the first time through the loop, precede with WHERE
+      $sql = $sql . " WHERE $key=?";
+    } else {
+      $sql = $sql . " AND $key=?";
+    }
+    $i++;
+  }
+
+  // ADD limit of 1 so it stops once it has found the first match
+  $sql = $sql . " LIMIT 1";
+
+  // For bind_param the num values must match num types
+  $stmt = $conn->prepare($sql);
+  $values = array_values($conditions);
+  $types = str_repeat('s', count($values));
+  $stmt->bind_param($types, ...$values); // i = integer, s = string
+  $stmt->execute();
+  $records = $stmt->get_result()->fetch_assoc();
+  return $records;
+
+
+}
 
 
 
@@ -107,5 +153,7 @@ $conditions = [
   'ID' => 4
 ];
 
-$videos = selectAll('videos', $conditions);
-dump($videos);
+// $videos = selectAll('videos', $conditions);
+// dump($videos);
+$video = selectOne('videos', $conditions);
+dump($video);
