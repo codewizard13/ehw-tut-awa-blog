@@ -50,3 +50,4 @@ Notes are located in [./notes/main.md](./notes/main.md)
 - https://chatgpt.com/c/58d0fbbc-9016-4f1d-9707-6c4ce979c5a7
 - https://www.youtube.com/watch?v=0YLJ0uO6n8I&list=PL0eyrZgxdwhwBToawjm9faF1ixePexft-&index=37&ab_channel=DaniKrossing
 - [How to create a blog PHP and MySQL database #5 | Reusable database functions selectAll()](https://www.youtube.com/watch?v=USw5nqjv6U8&list=PL3pyLl-dgiqD0eKYJ-XSxrHaRh-zsA2tP&index=5&ab_channel=AwaMelvine)
+- [How to create a blog PHP and MySQL database #8 | selectOne](https://www.youtube.com/watch?v=y1w1l9q5uBY&list=PL3pyLl-dgiqD0eKYJ-XSxrHaRh-zsA2tP&index=8&ab_channel=AwaMelvine)

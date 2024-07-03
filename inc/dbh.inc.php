@@ -42,6 +42,23 @@ function dump($arr) // TO BE DELETED -- Only use for DEV not PROD !!!
 }
 
 
+
+function executeQuery($sql, $data)
+{
+
+  global $conn;
+
+  $stmt = $conn->prepare($sql);
+  $values = array_values($data);
+  $types = str_repeat('s', count($values));
+
+  // For bind_param the values count must match types count
+  $stmt->bind_param($types, ...$values); // i = integer, s = string
+  $stmt->execute();
+  return $stmt;
+}
+
+
 /**
  * Get all records from table (filters optional).
  * 
@@ -83,12 +100,7 @@ function selectAll($table, $conditions = [], $limit = 1)
       $i++;
     }
 
-    // For bind_param the num values must match num types
-    $stmt = $conn->prepare($sql);
-    $values = array_values($conditions);
-    $types = str_repeat('s', count($values));
-    $stmt->bind_param($types, ...$values); // i = integer, s = string
-    $stmt->execute();
+    $stmt = executeQuery($sql, $conditions);
     $records = $stmt->get_result()->fetch_all(MYSQLI_ASSOC);
     return $records;
 
@@ -101,14 +113,13 @@ function selectAll($table, $conditions = [], $limit = 1)
 /**
  * Get one record from table (filters optional).
  * 
- * Return all records from a MySQL database, or filter by conditions
- *  and limit if present. Default limit is one - If there are thousands
- *  of records, defaulting to 1 will prevent browser crashing.
+ * Return only one record from a MySQL database. This time, conditions
+ *  are not optional.
  * 
  * @param string $table the table name
  * @param array $conditions the options for the where clause
  * 
- * @return array 
+ * @return array mysqli_fetch_assoc row record 
  */
 function selectOne($table, $conditions)
 {
@@ -134,12 +145,7 @@ function selectOne($table, $conditions)
   // ADD limit of 1 so it stops once it has found the first match
   $sql = $sql . " LIMIT 1";
 
-  // For bind_param the num values must match num types
-  $stmt = $conn->prepare($sql);
-  $values = array_values($conditions);
-  $types = str_repeat('s', count($values));
-  $stmt->bind_param($types, ...$values); // i = integer, s = string
-  $stmt->execute();
+  $stmt = executeQuery($sql, $conditions);
   $records = $stmt->get_result()->fetch_assoc();
   return $records;
 
@@ -149,11 +155,11 @@ function selectOne($table, $conditions)
 
 
 
-$conditions = [
-  'ID' => 4
-];
+// $conditions = [
+//   'ID' => 4
+// ];
 
-// $videos = selectAll('videos', $conditions);
-// dump($videos);
-$video = selectOne('videos', $conditions);
-dump($video);
+// // $videos = selectAll('videos', $conditions);
+// // dump($videos);
+// $video = selectOne('videos', $conditions);
+// dump($video);

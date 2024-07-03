@@ -17,15 +17,26 @@
 if (isset($_GET['id'])) {
     $card_id = $_GET['id'];
 } else {
-    $card_id = 'NONE PASSED';
+    $card_id = false;
 }
 
+
+// If we have a post ID, then display the post content
+if (!$card_id) {
+    echo "<span class='error'>The ID for the post was not found in the database</span>";
+} else {
+
+}
+
+
 // Fetch details for current card
-$query = "SELECT * FROM videos WHERE ID = $card_id";
+// $query = "SELECT * FROM videos WHERE ID = $card_id";
+// $query = selectOne('videos', ['ID' => $card_id]);
 // echo "<pre>".print_r($query,true)."</pre>";
 
-$result = mysqli_query($conn, $query);
-$card = mysqli_fetch_assoc($result);
+// $result = mysqli_query($conn, $query);
+$card = selectOne('videos', ['ID' => $card_id]);
+
 // echo "<pre>".print_r($card,true)."</pre>";
 
 ?>
@@ -62,7 +73,7 @@ $card = mysqli_fetch_assoc($result);
                 if (isset($_SESSION['cards'][$card_id]['img_url']))
                     echo $_SESSION['cards'][$card_id]['img_url'];
                 ?>">
-                <figcaption>{$date}</figcaption>
+                <figcaption></figcaption>
             </figure>
 
             <section class="post-meta"><?php
@@ -79,6 +90,7 @@ $card = mysqli_fetch_assoc($result);
 
         </article>
     </main>
+
     <aside class="sidebar">
         SIDEBAR
     </aside>
