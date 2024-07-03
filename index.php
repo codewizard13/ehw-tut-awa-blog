@@ -1,3 +1,5 @@
+<?php session_start(); ?>
+
 <?php
 include_once 'inc/dbh.inc.php';
 /**

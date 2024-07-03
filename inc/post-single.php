@@ -1,3 +1,5 @@
+<?php session_start(); ?>
+
 <?php
 /**
  * Author:          Eric Hepperle
@@ -5,9 +7,6 @@
  */
 // Following this tut: 
 //  https://www.youtube.com/watch?v=_O3UCmObj5k&ab_channel=JamalProgrammingTips
-
-session_start();
-
 ?>
 
 <!DOCTYPE html>
@@ -29,28 +28,28 @@ MAIN
 <article>
         
     <h1><?php
-        if (isset($_GET['post_title']))
-            echo $_GET['post_title'];
+        if (isset($_SESSION['post_title']))
+            echo $_SESSION['post_title'];
         ?>
     </h1>
 
     <figure class="post-thumb">
         <img src="<?php 
-            if (isset($_GET['img_url']))
-                echo $_GET['img_url'];
+            if (isset($_SESSION['img_url']))
+                echo $_SESSION['img_url'];
         ?>">
         <figcaption>{$date}</figcaption>
     </figure>
 
     <section class="post-meta"><?php
-        if (isset($_GET['pub_date']))
-            echo $_GET['pub_date'];
+        if (isset($_SESSION['pub_date']))
+            echo $_SESSION['pub_date'];
         ?>
     </section>
 
     <section class="blurb"><?php
-        if (isset($_GET['blurb']))
-            echo $_GET['blurb'];
+        if (isset($_SESSION['blurb']))
+            echo $_SESSION['blurb'];
         ?>
     </section>
 
