@@ -33,20 +33,45 @@ function dump($arr) // TO BE DELETED -- Only use for DEV not PROD !!!
 }
 
 
-function selectAll($table, $limit = 0)
+function selectAll($table, $conditions = [])
 {
 
   global $conn;
 
-  $sql = "SELECT * FROM $table LIMIT $limit";
-  $stmt = $conn->prepare($sql);
-  $stmt->execute();
-  $records = $stmt->get_result()->fetch_all(MYSQLI_ASSOC);
+  $sql = "SELECT * FROM $table";
 
-  return $records;
+  if (empty($conditions)) {
 
+    $stmt = $conn->prepare($sql);
+    $stmt->execute();
+    $records = $stmt->get_result()->fetch_all(MYSQLI_ASSOC);
+    return $records;
+
+  } else {
+    // return records that match conditons ...
+
+    $i = 0; // counter
+    foreach ( $conditions as $key => $value ) {
+      if ($i === 0) {
+        // If it is is the first time through the loop, precede with WHERE
+        $sql = $sql . " WHERE $key=$value";
+      } else {
+        $sql = $sql . " AND $key=$value";
+
+      }
+      $i++;
+    }
+    dump($sql);
+
+  }
 
 }
 
-$videos = selectAll('videos', 3);
+$conditions = [
+  'admin' => 1,
+  'username' => 'Awa',
+  'limit' => 3
+];
+
+$videos = selectAll('videos', $conditions);
 dump($videos);
