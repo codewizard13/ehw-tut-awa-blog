@@ -25,9 +25,15 @@ if ($conn->connect_error) {
 
 
 
+function dump($arr)
+{
+
+  echo "<pre>" . print_r($arr, true) . "</pre>";
+
+}
 
 
-function selectAll($table, $limit=0)
+function selectAll($table, $limit = 0)
 {
 
   global $conn;
@@ -42,5 +48,5 @@ function selectAll($table, $limit=0)
 
 }
 
-$videos = selectAll('videos',10);
-echo "<pre>" . print_r($videos, true) . "</pre>";
+$videos = selectAll('videos', 3);
+dump($videos);
