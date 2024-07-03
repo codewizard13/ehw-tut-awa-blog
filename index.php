@@ -17,10 +17,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NO-WP: Old ES Database Tester</title>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/e79f7003be.js" crossorigin="anonymous"></script>
+
+    <!-- Custom Styling -->
     <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
+
+
+    <header>
+        <div class="logo">
+            <h1 class="logo-text">
+                <span>Eric</span>Inspires
+            </h1>
+        </div>
+        <i class="fa fa-bars menu-toggle"></i>
+        <ul class="nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li>
+        <i class="fa-solid fa-guitar"></i>
+                <a href="#">Eric Hepperle</a>
+                <ul>
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="#" class="logout">Logout</a></li>
+                </ul>
+            </li>
+        </ul>
+
+    </header>
 
     <h1>NO-WP: Old ES Database Tester</h1>
 

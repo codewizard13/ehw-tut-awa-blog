@@ -8,6 +8,7 @@ body {
   margin: 0 auto;
   border: solid 1px gray;
   font-family: 'Roboto', 'Open Sans', Arial, Helvetica, sans-serif;
+  background: #f6f6f6;
 }
 
 .cards {
@@ -187,3 +188,34 @@ body.single {
   
 }
 
+
+
+/* ////////// HEADER //////////// */
+
+
+header {
+  background: #008489;
+  height: 66px;
+}
+
+header * {
+  color: white;
+}
+
+header .logo {
+  float: left;
+  height: inherit;
+  border: 1px solid red;
+}
+
+header .logo-text {
+  margin: 5px;
+}
+
+header ul {
+  float: right;
+}
+
+header .menu-toggle {
+  display: none;
+}
