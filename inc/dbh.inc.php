@@ -33,7 +33,7 @@ function dump($arr) // TO BE DELETED -- Only use for DEV not PROD !!!
 }
 
 
-function selectAll($table, $conditions = [])
+function selectAll($table, $conditions = [], $limit = 1)
 {
 
   global $conn;
@@ -51,26 +51,31 @@ function selectAll($table, $conditions = [])
     // return records that match conditons ...
 
     $i = 0; // counter
-    foreach ( $conditions as $key => $value ) {
+    foreach ($conditions as $key => $value) {
       if ($i === 0) {
         // If it is is the first time through the loop, precede with WHERE
-        $sql = $sql . " WHERE $key=$value";
+        $sql = $sql . " WHERE $key=?";
       } else {
-        $sql = $sql . " AND $key=$value";
-
+        $sql = $sql . " AND $key=?";
       }
       $i++;
     }
-    dump($sql);
+
+    // For bind_param the num values must match num types
+    $stmt = $conn->prepare($sql);
+    $values = array_values($conditions);
+    $types = str_repeat('s', count($values));
+    $stmt->bind_param($types, ...$values); // i = integer, s = string
+    $stmt->execute();
+    $records = $stmt->get_result()->fetch_all(MYSQLI_ASSOC);
+    return $records;
 
   }
 
 }
 
 $conditions = [
-  'admin' => 1,
-  'username' => 'Awa',
-  'limit' => 3
+  'ID' => 4
 ];
 
 $videos = selectAll('videos', $conditions);
