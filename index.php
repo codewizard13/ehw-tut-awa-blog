@@ -1,7 +1,7 @@
 <?php 
     session_start();
-    include_once 'path.php'; 
-    include_once 'inc/dbh.inc.php';
+    include 'path.php'; 
+    include 'inc/dbh.inc.php';
 ?>
 <?php
 /**
