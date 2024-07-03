@@ -21,10 +21,19 @@ if ($conn->connect_error) {
 
 
 
+
+
+
 ///////////////// DB FUNCTIONS /////////////////////
 
 
-
+/**
+ * Print out an array to browser with print_r.
+ * 
+ * @param mixed $arr any array or object or probably any data type
+ * 
+ * @return void
+ */
 function dump($arr) // TO BE DELETED -- Only use for DEV not PROD !!!
 {
 
@@ -33,6 +42,19 @@ function dump($arr) // TO BE DELETED -- Only use for DEV not PROD !!!
 }
 
 
+/**
+ * Get records from table (filters optional).
+ * 
+ * Return all records from a MySQL database, or filter by conditions
+ *  and limit if present. Default limit is one - If there are thousands
+ *  of records, defaulting to 1 will prevent browser crashing.
+ * 
+ * @param string $table the table name
+ * @param array $conditions the options for the where clause
+ * @param integer $limit the number of records to return
+ * 
+ * @return array 
+ */
 function selectAll($table, $conditions = [], $limit = 1)
 {
 
@@ -73,6 +95,13 @@ function selectAll($table, $conditions = [], $limit = 1)
   }
 
 }
+
+
+
+
+
+
+
 
 $conditions = [
   'ID' => 4
