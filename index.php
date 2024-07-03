@@ -1,6 +1,8 @@
-<?php session_start(); ?>
-<?php include_once 'inc/dbh.inc.php'; ?>
-<?php include_once 'path.php'; ?>
+<?php 
+    session_start();
+    include_once 'path.php'; 
+    include_once 'inc/dbh.inc.php';
+?>
 <?php
 /**
  * Author:          Eric Hepperle
