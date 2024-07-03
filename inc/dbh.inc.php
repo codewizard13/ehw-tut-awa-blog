@@ -25,7 +25,7 @@ if ($conn->connect_error) {
 
 
 
-function dump($arr)
+function dump($arr) // TO BE DELETED -- Only use for DEV not PROD !!!
 {
 
   echo "<pre>" . print_r($arr, true) . "</pre>";
