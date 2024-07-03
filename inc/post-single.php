@@ -1,20 +1,12 @@
-<?php 
-    session_start();
-    include '../path.php'; 
-    include 'dbh.inc.php';
-?>
-
 <?php
+    session_start();
+    include '../path.php';
+    include 'dbh.inc.php';
+    
 /**
  * Author:          Eric Hepperle
- * 
- * @References: 
- * - https://www.youtube.com/watch?v=_O3UCmObj5k&ab_channel=JamalProgrammingTips
- * - https://chatgpt.com/c/58d0fbbc-9016-4f1d-9707-6c4ce979c5a7
  */
-
 ?>
-
 
 <?php
 
@@ -36,9 +28,6 @@ $result = mysqli_query($conn, $query);
 $card = mysqli_fetch_assoc($result);
 // echo "<pre>".print_r($card,true)."</pre>";
 
-
-
-
 ?>
 
 
@@ -56,43 +45,43 @@ $card = mysqli_fetch_assoc($result);
 <body class="single">
 
 
-<main>
-MAIN
+    <main>
+        MAIN
 
-<article>
-    <h3>Card ID: <?php echo $card_id; ?></h3>
-        
-    <h1><?php
-        if (isset($_SESSION['cards'][$card_id]['post_title']))
-            echo $_SESSION['cards'][$card_id]['post_title'];
-        ?>
-    </h1>
+        <article>
+            <h3>Card ID: <?php echo $card_id; ?></h3>
 
-    <figure class="post-thumb">
-        <img src="<?php 
-            if (isset($_SESSION['cards'][$card_id]['img_url']))
-                echo $_SESSION['cards'][$card_id]['img_url'];
-        ?>">
-        <figcaption>{$date}</figcaption>
-    </figure>
+            <h1><?php
+            if (isset($_SESSION['cards'][$card_id]['post_title']))
+                echo $_SESSION['cards'][$card_id]['post_title'];
+            ?>
+            </h1>
 
-    <section class="post-meta"><?php
-        if (isset($_SESSION['cards'][$card_id]['pub_date']))
-            echo $_SESSION['cards'][$card_id]['pub_date'];
-        ?>
-    </section>
+            <figure class="post-thumb">
+                <img src="<?php
+                if (isset($_SESSION['cards'][$card_id]['img_url']))
+                    echo $_SESSION['cards'][$card_id]['img_url'];
+                ?>">
+                <figcaption>{$date}</figcaption>
+            </figure>
 
-    <section class="blurb"><?php
-        if (isset($_SESSION['cards'][$card_id]['blurb']))
-            echo $_SESSION['cards'][$card_id]['blurb'];
-        ?>
-    </section>
+            <section class="post-meta"><?php
+            if (isset($_SESSION['cards'][$card_id]['pub_date']))
+                echo $_SESSION['cards'][$card_id]['pub_date'];
+            ?>
+            </section>
 
-</article>
-</main>
-<aside class="sidebar">
-    SIDEBAR
-</aside>
+            <section class="blurb"><?php
+            if (isset($_SESSION['cards'][$card_id]['blurb']))
+                echo $_SESSION['cards'][$card_id]['blurb'];
+            ?>
+            </section>
+
+        </article>
+    </main>
+    <aside class="sidebar">
+        SIDEBAR
+    </aside>
 
 
 
@@ -100,6 +89,5 @@ MAIN
 
 
 </body>
+
 </html>
-
-

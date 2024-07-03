@@ -2,14 +2,12 @@
     session_start();
     include 'path.php'; 
     include 'inc/dbh.inc.php';
-?>
-<?php
+
 /**
  * Author:          Eric Hepperle
  * Date Created:    06/21/24
  * Date Modified:   07/03/24
  */
-// Following this tut: https://www.youtube.com/watch?v=0YLJ0uO6n8I&list=PL0eyrZgxdwhwBToawjm9faF1ixePexft-&index=37&ab_channel=DaniKrossing
 ?>
 
 <!DOCTYPE html>

@@ -31,12 +31,12 @@
 
 ## TAGS
 
-`LAMP` `PHP` `Coding` `Site from Scratch` `MySQL` `Blog Site` `Custom Codebase` `Database`
+`LAMP` `PHP` `Coding` `Site from Scratch` `MySQL` `Blog Site` `Custom Codebase` `Database` `ELSMS`
 
 
 ## PURPOSE
 
-This repo is to help me learn how to code a LAMP/PHP/MySQL WordPress-like blog from scratch.
+This repo is to help me learn how to code a LAMP/PHP/MySQL WordPress-like blog from scratch. We are only pushing the files, not the database.
 
 ## NOTES
 
@@ -46,3 +46,6 @@ Notes are located in [./notes/main.md](./notes/main.md)
 
 - Good **Color Names** and Shades website: https://www.html-color-names.com/lightgreen.php
 -  [How to Create a Blog PHP & MySQL database #1 | Login & Signup](https://www.youtube.com/watch?v=ZACNmjjryLo&ab_channel=CodingwithElias)
+- https://www.youtube.com/watch?v=_O3UCmObj5k&ab_channel=JamalProgrammingTips
+- https://chatgpt.com/c/58d0fbbc-9016-4f1d-9707-6c4ce979c5a7
+- https://www.youtube.com/watch?v=0YLJ0uO6n8I&list=PL0eyrZgxdwhwBToawjm9faF1ixePexft-&index=37&ab_channel=DaniKrossing
