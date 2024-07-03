@@ -1,10 +1,11 @@
 <?php session_start(); ?>
-
+<?php include_once 'inc/dbh.inc.php'; ?>
+<?php include_once 'path.php'; ?>
 <?php
-include_once 'inc/dbh.inc.php';
 /**
  * Author:          Eric Hepperle
  * Date Created:    06/21/24
+ * Date Modified:   07/03/24
  */
 // Following this tut: https://www.youtube.com/watch?v=0YLJ0uO6n8I&list=PL0eyrZgxdwhwBToawjm9faF1ixePexft-&index=37&ab_channel=DaniKrossing
 ?>
@@ -26,8 +27,7 @@ include_once 'inc/dbh.inc.php';
     <?php
 
     // CONSTANTS
-    define('IMG_ROOT_URL', 'https://elijahstreams.com/images/faces/');
-    echo "<h3>IMG_ROOT_URL: " . IMG_ROOT_URL . "</h3>";
+
 
     // FUNCTIONS
     function remote_file_exists($file_url)
