@@ -1,6 +1,10 @@
 <?php // post-loop-item.php
 // session_start();
 
+// $row_str = "<pre>".print_r($row,true)."</pre>";
+// echo $row_str;
+// exit;
+
 // Get the image full path
 $img_url = pick_img([$row['image1'], $row['image2'], $row['image3']]);
 
@@ -19,7 +23,7 @@ $_SESSION['blurb'] = $row['Blurb'];
 // $url_query_get .= "&img_url=" . $img_url;
 // $url_query_get .= "&blurb=" . $row['Blurb'];
 // $single_url = 'inc/post-single.php' . $url_query_get;
-$single_url = 'inc/post-single.php'; //. $url_query_get;
+$single_url = 'inc/post-single.php?id=' . $row['ID']; //. $url_query_get;
 
 // Define loop item layout
 $loop_item = <<<HTML
