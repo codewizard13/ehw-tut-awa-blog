@@ -289,6 +289,10 @@ header .menu-toggle {
     overflow: hidden;
   }
 
+  .showing {
+    max-height: 100rem;
+  }
+
   header ul li {
     width: 100%;
   }
