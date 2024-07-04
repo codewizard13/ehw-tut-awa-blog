@@ -7,9 +7,9 @@ body {
   max-width: 1400px;
   margin: 0 auto;
   border: solid 1px gray;
-  font-family: 'Roboto', 'Open Sans', Arial, Helvetica, sans-serif;
+  font-family: "Roboto", "Open Sans", Arial, Helvetica, sans-serif;
   background: #f6f6f6;
-  font-family: 'Lora', serif;
+  font-family: "Lora", serif;
 }
 
 .cards {
@@ -37,8 +37,8 @@ body {
   /* width: 100%; */
   width: 27%;
   margin: 0.2rem;
-  padding: .2rem .8rem 2rem;
-  gap: .4rem;
+  padding: 0.2rem 0.8rem 2rem;
+  gap: 0.4rem;
 }
 
 .card-sec {
@@ -53,7 +53,7 @@ body {
 .post-thumb figcaption {
   color: red;
   font-style: italic;
-  font-size: .8rem;
+  font-size: 0.8rem;
   font-weight: bold;
   margin-top: 1rem;
 }
@@ -71,7 +71,6 @@ body {
   filter: brightness(0.9);
 }
 
-
 .truncate {
   display: -webkit-box;
   -webkit-line-clamp: 3; /* Display 3 lines */
@@ -81,18 +80,17 @@ body {
 
 .blurb,
 .blurb > * {
-  font-size: .8rem;
+  font-size: 0.8rem;
   font-weight: 400 !important;
 }
 
 .blurb {
   border: solid 1px #333;
-  border-radius: .4rem;
+  border-radius: 0.4rem;
   padding: 1rem;
   background: aliceblue;
-  filter: lighten(.9);
+  filter: lighten(0.9);
 }
-
 
 /* ////////// MESSAGE & ERROR STYLES //////////// */
 
@@ -132,9 +130,6 @@ body {
   content: "⚠️";
 }
 
-
-
-
 /* ////////// HEADER RESPONSIVE CLAMP DEFAULTS //////////// */
 
 /* h1 {
@@ -162,10 +157,6 @@ p {
   font-size: clamp(1rem, 0.84426rem + 0.65574vw, 1.5rem);
 } */
 
-
-
-
-
 /* ////////// SINGLE POST //////////// */
 
 body.single {
@@ -173,10 +164,8 @@ body.single {
 }
 
 .single main {
-
   flex: 1 1 70%;
   background: bisque;
-
 }
 .single .sidebar {
   background: aliceblue;
@@ -186,13 +175,9 @@ body.single {
 .single figure img {
   width: clamp(100px, 600px, 25vw) !important;
   border: 6px purple solid;
-  
 }
 
-
-
 /* ////////// HEADER //////////// */
-
 
 header {
   background: #008489;
@@ -211,7 +196,7 @@ header .logo {
 
 header .logo-text {
   margin: 8px;
-  font-family: 'Candal', serif;
+  font-family: "Candal", serif;
 }
 
 header .logo-text span {
@@ -233,7 +218,7 @@ header ul li {
 header ul li ul {
   position: absolute;
   top: 66px; /* same as main nav height */
-  right: 0px;
+  left: 0px;
   width: 180px;
   display: none;
 }
@@ -256,7 +241,6 @@ header ul li ul li a:hover {
   background: #d5d6d6;
 }
 
-
 header ul li a {
   display: block;
   padding: 21px;
@@ -278,5 +262,10 @@ header .menu-toggle {
 }
 
 .top-nav .fa-chevron-down {
-  font-size: .8rem;
+  font-size: 0.8rem;
+}
+
+.menu-align-rt {
+  width: 100%;
+  right: 0px;
 }

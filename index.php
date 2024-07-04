@@ -43,7 +43,13 @@ include 'inc/dbh.inc.php';
         </div>
         <i class="fa fa-bars menu-toggle"></i>
         <ul class="top-nav">
-            <li><a href="#">Home</a></li>
+            <li><a href="#">Home</a>
+                <ul>
+                    <li><a href="#">Landing Page</a></li>
+                    <li><a href="#">Team</a></li>
+                </ul>
+            </li>
+
             <li><a href="#">About</a></li>
             <li><a href="#">Services</a></li>
             <li>
@@ -52,7 +58,7 @@ include 'inc/dbh.inc.php';
                     Eric Hepperle
                     <i class="fa fa-chevron-down"></i>
                 </a>
-                <ul>
+                <ul class="menu-align-rt">
                     <li><a href="#">Dashboard</a></li>
                     <li><a href="#" class="logout">Logout</a></li>
                 </ul>
