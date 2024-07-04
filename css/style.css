@@ -279,11 +279,40 @@ header .menu-toggle {
 /* 750px or less */
 @media only screen and (max-width: 750px) {
 
+  header {
+    position: relative;
+  }
   header ul {
-
     width: 100%;
     background: #0e94a0;
+    max-height: 0px;
+    overflow: hidden;
   }
 
+  header ul li {
+    width: 100%;
+  }
+
+  header ul li ul {
+    position: static;
+    width: 100%;
+    display: block;
+  }
+
+  header ul li ul li a {
+    padding: 10px;
+    color: white;
+    background: #0e94a0;
+    padding-left: 3rem;
+  } 
+
+  header .menu-toggle {
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 1.9rem;
+    border: 1px solid red;
+  }
 
 }
