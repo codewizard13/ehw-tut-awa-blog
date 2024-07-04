@@ -271,3 +271,7 @@ header .menu-toggle {
 .logout {
   color: red;
 }
+
+.top-nav .fa-chevron-down {
+  font-size: .8rem;
+}

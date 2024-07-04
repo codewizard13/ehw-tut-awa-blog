@@ -42,12 +42,16 @@ include 'inc/dbh.inc.php';
             </h1>
         </div>
         <i class="fa fa-bars menu-toggle"></i>
-        <ul class="nav">
+        <ul class="top-nav">
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Services</a></li>
             <li>
-                <a href="#">🎸 Eric Hepperle</a>
+                <a href="#">
+                    <i class="fa fa-user"></i>
+                    Eric Hepperle
+                    <i class="fa fa-chevron-down"></i>
+                </a>
                 <ul>
                     <li><a href="#">Dashboard</a></li>
                     <li><a href="#" class="logout">Logout</a></li>
