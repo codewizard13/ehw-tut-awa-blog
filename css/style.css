@@ -9,6 +9,7 @@ body {
   border: solid 1px gray;
   font-family: 'Roboto', 'Open Sans', Arial, Helvetica, sans-serif;
   background: #f6f6f6;
+  font-family: 'Lora', serif;
 }
 
 .cards {
@@ -210,6 +211,11 @@ header .logo {
 
 header .logo-text {
   margin: 5px;
+  font-family: 'Candal', serif;
+}
+
+header .logo-text span {
+  color: #05f7ff;
 }
 
 header ul {

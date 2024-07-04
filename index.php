@@ -1,7 +1,7 @@
-<?php 
-    session_start();
-    include 'path.php'; 
-    include 'inc/dbh.inc.php';
+<?php
+session_start();
+include 'path.php';
+include 'inc/dbh.inc.php';
 
 /**
  * Author:          Eric Hepperle
@@ -21,6 +21,12 @@
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/e79f7003be.js" crossorigin="anonymous"></script>
 
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Candal&family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
     <!-- Custom Styling -->
     <link rel="stylesheet" href="css/style.css">
 
@@ -41,7 +47,7 @@
             <li><a href="#">About</a></li>
             <li><a href="#">Services</a></li>
             <li>
-        <i class="fa-solid fa-guitar"></i>
+                <i class="fa-solid fa-guitar"></i>
                 <a href="#">Eric Hepperle</a>
                 <ul>
                     <li><a href="#">Dashboard</a></li>
@@ -57,7 +63,7 @@
     <?php
 
     // CONSTANTS
-
+    
 
     // FUNCTIONS
     function remote_file_exists($file_url)
