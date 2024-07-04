@@ -235,6 +235,11 @@ header ul li ul {
   top: 66px; /* same as main nav height */
   right: 0px;
   width: 180px;
+  display: none;
+}
+
+header ul li:hover ul {
+  display: block;
 }
 
 header ul li ul li {
