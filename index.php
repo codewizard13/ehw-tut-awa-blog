@@ -69,6 +69,29 @@ include 'inc/dbh.inc.php';
 
     <h1>NO-WP: Old ES Database Tester</h1>
 
+
+    <!-- PAGE WRAPPER -->
+    <div class="page-wrapper">
+
+        <!-- Post Slider -->
+        <div class="post-slider">
+            <h1 class="slider-title">Trending Posts</h1>
+
+            <div class="post-wrapper">
+                <div class="post">1</div>
+                <div class="post">2</div>
+                <div class="post">3</div>
+                <div class="post">4</div>
+                <div class="post">5</div>
+            </div>
+        </div>
+        <!-- // Post Slider -->
+
+    </div>
+    <!-- // PAGE WRAPPER -->
+
+
+
     <?php
 
     // CONSTANTS
@@ -175,6 +198,10 @@ include 'inc/dbh.inc.php';
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
         integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Slick Carousel / Post Slider -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+				
 
     <!-- Custom Script -->
     <script src="js/scripts.js"></script>

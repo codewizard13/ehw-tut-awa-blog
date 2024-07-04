@@ -274,6 +274,39 @@ header .menu-toggle {
 
 
 
+
+
+
+/* ////////// POST SLIDER (SLICK) //////////// */
+
+.post-slider {
+  border: 1px solid red;
+  /* clear: both; */
+  margin-bottom: 3rem;
+}
+
+.post-slider .post-wrapper {
+  width: 84%;
+  height: 350px;
+  margin: 0 auto;
+  overflow: hidden;
+  border: 1px dashed red;
+}
+
+.post-slider .post-wrapper .post {
+  width: 300px;
+  height: 350px;
+  margin: 0 10px;
+  background: #006669;
+  display: inline-block;
+}
+
+
+
+
+
+
+
 /* ////////// MEDIA QUERIES //////////// */
 
 /* 750px or less */
