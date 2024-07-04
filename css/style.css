@@ -177,6 +177,8 @@ body.single {
   border: 6px purple solid;
 }
 
+
+
 /* ////////// HEADER //////////// */
 
 header {
@@ -268,4 +270,20 @@ header .menu-toggle {
 .menu-align-rt {
   width: 100%;
   right: 0px;
+}
+
+
+
+/* ////////// MEDIA QUERIES //////////// */
+
+/* 750px or less */
+@media only screen and (max-width: 750px) {
+
+  header ul {
+
+    width: 100%;
+    background: #0e94a0;
+  }
+
+
 }
