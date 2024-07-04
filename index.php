@@ -47,8 +47,8 @@ include 'inc/dbh.inc.php';
             <li><a href="#">About</a></li>
             <li><a href="#">Services</a></li>
             <li>
-                <i class="fa-solid fa-guitar"></i>
-                <a href="#">Eric Hepperle</a>
+            
+                <a href="#">🎸 Eric Hepperle</a>
                 <ul>
                     <li><a href="#">Dashboard</a></li>
                     <li><a href="#" class="logout">Logout</a></li>

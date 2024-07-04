@@ -206,11 +206,11 @@ header * {
 header .logo {
   float: left;
   height: inherit;
-  border: 1px solid red;
+  margin-left: 2rem;
 }
 
 header .logo-text {
-  margin: 5px;
+  margin: 8px;
   font-family: 'Candal', serif;
 }
 
@@ -220,6 +220,28 @@ header .logo-text span {
 
 header ul {
   float: right;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+
+  border: 1px solid red;
+
+}
+
+header ul li {
+  float: left; /* horz display */
+}
+
+header ul li a {
+  display: block;
+  padding: 21px;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+header ul li a:hover {
+  background: #006669;
+  transition: 0.5s;
 }
 
 header .menu-toggle {
