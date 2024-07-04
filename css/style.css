@@ -223,14 +223,34 @@ header ul {
   margin: 0px;
   padding: 0px;
   list-style: none;
-
-  border: 1px solid red;
-
 }
 
 header ul li {
   float: left; /* horz display */
+  position: relative;
 }
+
+header ul li ul {
+  position: absolute;
+  top: 66px; /* same as main nav height */
+  right: 0px;
+  width: 180px;
+}
+
+header ul li ul li {
+  width: 100%; /* assume width of parent */
+}
+
+header ul li ul li a {
+  padding: 10px;
+  color: #444;
+  background: white;
+}
+
+header ul li ul li a:hover {
+  background: #d5d6d6;
+}
+
 
 header ul li a {
   display: block;
@@ -246,4 +266,8 @@ header ul li a:hover {
 
 header .menu-toggle {
   display: none;
+}
+
+.logout {
+  color: red;
 }
