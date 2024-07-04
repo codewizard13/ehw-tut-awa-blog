@@ -55,3 +55,4 @@ Notes are located in [./notes/main.md](./notes/main.md)
 - [Designing a responsive Navbar with dropdown using HTML/CSS | Designing a blog website HTML/CSS #2.1](https://www.youtube.com/watch?v=QAir1tm72eY&list=PL3pyLl-dgiqBSBsC5O5AQHN1UsUk-60nc&index=2&ab_channel=AwaMelvine)
 - https://docs.emmet.io/cheat-sheet/
 - https://yapanss.github.io/docu_page/
+- https://kenwheeler.github.io/slick/

@@ -310,6 +310,10 @@ header .menu-toggle {
     padding-left: 3rem;
   } 
 
+  header ul li ul li a:hover {
+    background: #006669;
+  }
+
   header .menu-toggle {
     display: block;
     position: absolute;
