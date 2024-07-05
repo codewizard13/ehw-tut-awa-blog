@@ -330,6 +330,7 @@ header .menu-toggle {
   display: inline-block;
   background: white;
   border-radius: 5px;
+  box-shadow: 1rem 1rem 1rem -1rem #a0a0a3;
 }
 
 .post-slider .post-wrapper .post .slider-image {
