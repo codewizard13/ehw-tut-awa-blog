@@ -6,6 +6,7 @@
 --color-teal-bright: #05f7ff;
 --color-wild-sand: #f6f6f6; /* very light gray */
 --color-tundora: #444; /* dark gray */
+--color-teal-btn-dark: #005255;
 
 
 }
@@ -39,6 +40,18 @@ a {
   content: '';
   display: block;
   clear: both;
+}
+
+.btn {
+  padding: .5rem 1rem;
+  background: var(--color-teal-normal);
+  color: white;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+}
+.btn:hover {
+  color: white !important;
+  background: var(--color-teal-btn-dark);
 }
 
 .cards {
