@@ -153,7 +153,7 @@ include 'inc/dbh.inc.php';
         <!-- // Post Slider -->
 
         <!-- Content -->
-         <div class="content">
+        <div class="content clearfix">
 
             <div class="main-content">
                 <h1 class="recent-post-title">Recent Posts</h1>
@@ -161,7 +161,7 @@ include 'inc/dbh.inc.php';
 
             <div class="sidebar"></div>
 
-         </div>
+        </div>
 
 
         <!-- // Content -->
@@ -176,7 +176,7 @@ include 'inc/dbh.inc.php';
 
     <!-- Slick Carousel / Post Slider -->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-				
+
 
     <!-- Custom Script -->
     <script src="js/scripts.js"></script>

@@ -35,6 +35,12 @@ a {
   color: inherit;
 }
 
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
 .cards {
   border: solid navy 3px;
   width: 80%;
