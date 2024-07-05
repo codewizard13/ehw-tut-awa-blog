@@ -240,12 +240,14 @@ header ul li {
   position: relative;
 }
 
+/* DROP-DOWN 2NDry NAV MENU */
 header ul li ul {
   position: absolute;
   top: 66px; /* same as main nav height */
   left: 0px;
   width: 180px;
   display: none;
+  z-index: 88888;
 }
 
 header ul li:hover ul {
