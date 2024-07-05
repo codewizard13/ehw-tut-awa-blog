@@ -333,6 +333,11 @@ header .menu-toggle {
   box-shadow: 1rem 1rem 1rem -1rem #a0a0a3;
 }
 
+.post-slider .post-wrapper .post .post-info {
+  height: 130px;
+  border: 1px solid green;
+}
+
 .post-slider .post-wrapper .post .slider-image {
   width: 100%;
   height: 200px;
