@@ -38,6 +38,13 @@
 
 This repo is to help me learn how to code a LAMP/PHP/MySQL WordPress-like blog from scratch. We are only pushing the files, not the database.
 
+# PLUGINS & DEPENDENCIES
+
+- **jQuery**: Multipurpose JavaScript DOM library
+- **Slick JS**: JavaScript slider plugin
+- **Google Fonts**:
+- **Fontawesome**:
+
 ## NOTES
 
 Notes are located in [./notes/main.md](./notes/main.md)
