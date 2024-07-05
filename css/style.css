@@ -12,6 +12,11 @@ body {
   font-family: "Lora", serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Candal', serif;
+  color: #444;
+}
+
 .cards {
   border: solid navy 3px;
   width: 80%;
@@ -283,6 +288,11 @@ header .menu-toggle {
   border: 1px solid red;
   /* clear: both; */
   margin-bottom: 3rem;
+}
+
+.post-slider .slider-title {
+  text-align: center;
+  margin: 30px auto;
 }
 
 .post-slider .post-wrapper {
