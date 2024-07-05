@@ -147,7 +147,6 @@ include 'inc/dbh.inc.php';
                     </div>
                 </div>
 
-
             </div>
         </div>
         <!-- // Post Slider -->
@@ -155,9 +154,24 @@ include 'inc/dbh.inc.php';
         <!-- Content -->
         <div class="content clearfix">
 
+            <!-- Main Content -->
             <div class="main-content">
                 <h1 class="recent-post-title">Recent Posts</h1>
+
+                <div class="post">
+                    <img src="pix/image3.jpg" alt="" class="post-image">
+                    <div class="post-preview">
+                        <h1><a href="single.html">The strongest and sweetest songs yet remain to be sung</a></h1>
+                        <i class="fa fa-user">Eric Hepperle</i>
+                        &nbsp;
+                        <i class="fa fa-caledar">Mar 11, 2019</i>
+                        <p class="preview-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur accusamus, molestias odio rerum eligendi quae?</p>
+                        <a href="single.html" class="btn">Read More</a>
+                    </div>
+                </div>
+
             </div>
+            <!-- // Main Content -->
 
             <div class="sidebar"></div>
 
