@@ -379,6 +379,33 @@ header .menu-toggle {
 
 
 
+/* ////////// CONTENT //////////// */
+
+.content {
+  width: 90%;
+  margin: 30px auto 30px;
+  border: solid 1px red;
+}
+
+.content .main-content {
+  width: 70%;
+  float: left;
+   border: 1px solid blue;
+}
+
+.content .sidebar {
+  width: 30%;
+  float: left;
+  border: 1px dashed green;
+  height: 300px;
+}
+
+
+
+
+
+
+
 
 
 /* ////////// MEDIA QUERIES //////////// */

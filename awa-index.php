@@ -152,6 +152,20 @@ include 'inc/dbh.inc.php';
         </div>
         <!-- // Post Slider -->
 
+        <!-- Content -->
+         <div class="content">
+
+            <div class="main-content">
+                <h1 class="recent-post-title">Recent Posts</h1>
+            </div>
+
+            <div class="sidebar"></div>
+
+         </div>
+
+
+        <!-- // Content -->
+
     </div>
     <!-- // PAGE WRAPPER -->
 
