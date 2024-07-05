@@ -307,7 +307,6 @@ header .menu-toggle {
 }
 
 .post-slider {
-  border: 1px solid red;
   /* clear: both; */
   margin-bottom: 3rem;
   position: relative;
@@ -341,7 +340,6 @@ header .menu-toggle {
   margin: 0 auto;
   overflow: hidden;
   padding: 10px 0px;
-  border: 1px dashed red;
 }
 
 .post-slider .post-wrapper .post {
@@ -357,7 +355,6 @@ header .menu-toggle {
 
 .post-slider .post-wrapper .post .post-info {
   height: 130px;
-  border: 1px solid green;
   padding: 0px 5x;
 }
 
