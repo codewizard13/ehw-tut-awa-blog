@@ -3,6 +3,7 @@
 /* COLORS */
 --color-teal-dark:  #006669;
 --color-teal-normal:  #008489;
+--color-teal-bright: #05f7ff;
 --color-wild-sand: #f6f6f6; /* very light gray */
 --color-tundora: #444; /* dark gray */
 
@@ -25,7 +26,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Candal', serif;
-  color: var(--color-tundoral);
+  color: var(--color-tundora);
   margin: 5px;
 }
 
@@ -224,7 +225,7 @@ header .logo-text {
 }
 
 header .logo-text span {
-  color: #05f7ff;
+  color: var(--color-teal-bright);
 }
 
 header ul {
@@ -257,7 +258,7 @@ header ul li ul li {
 
 header ul li ul li a {
   padding: 10px;
-  color: var(--color-tundoral);
+  color: var(--color-tundora);
   background: white;
 }
 
