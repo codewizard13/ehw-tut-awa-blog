@@ -88,8 +88,8 @@ include 'inc/dbh.inc.php';
                     <img src="/pix/image1.jpg" alt="" class="slider-image">
                     <div class="post-info">
                         <h4><a href="post-single.php">One day your life will flash before your eyes</a></h4>
-                        <i class="fa fa-user">Eric Hepperle</i>
-                        <i class="fa fa-calendar">Mar 8, 2019</i>
+                        <i class="fa fa-user"> Eric Hepperle</i>
+                        <i class="fa fa-calendar"> Mar 8, 2019</i>
                     </div>
                 </div>
 
@@ -97,8 +97,8 @@ include 'inc/dbh.inc.php';
                     <img src="/pix/image1.jpg" alt="" class="slider-image">
                     <div class="post-info">
                         <h4><a href="post-single.php">One day your life will flash before your eyes</a></h4>
-                        <i class="fa fa-user">Eric Hepperle</i>
-                        <i class="fa fa-calendar">Mar 8, 2019</i>
+                        <i class="fa fa-user"> Eric Hepperle</i>
+                        <i class="fa fa-calendar"> Mar 8, 2019</i>
                     </div>
                 </div>
 
@@ -106,8 +106,8 @@ include 'inc/dbh.inc.php';
                     <img src="/pix/image1.jpg" alt="" class="slider-image">
                     <div class="post-info">
                         <h4><a href="post-single.php">One day your life will flash before your eyes</a></h4>
-                        <i class="fa fa-user">Eric Hepperle</i>
-                        <i class="fa fa-calendar">Mar 8, 2019</i>
+                        <i class="fa fa-user"> Eric Hepperle</i>
+                        <i class="fa fa-calendar"> Mar 8, 2019</i>
                     </div>
                 </div>
 
@@ -115,8 +115,8 @@ include 'inc/dbh.inc.php';
                     <img src="/pix/image1.jpg" alt="" class="slider-image">
                     <div class="post-info">
                         <h4><a href="post-single.php">One day your life will flash before your eyes</a></h4>
-                        <i class="fa fa-user">Eric Hepperle</i>
-                        <i class="fa fa-calendar">Mar 8, 2019</i>
+                        <i class="fa fa-user"> Eric Hepperle</i>
+                        <i class="fa fa-calendar"> Mar 8, 2019</i>
                     </div>
                 </div>
 
@@ -124,8 +124,8 @@ include 'inc/dbh.inc.php';
                     <img src="/pix/image1.jpg" alt="" class="slider-image">
                     <div class="post-info">
                         <h4><a href="post-single.php">One day your life will flash before your eyes</a></h4>
-                        <i class="fa fa-user">Eric Hepperle</i>
-                        <i class="fa fa-calendar">Mar 8, 2019</i>
+                        <i class="fa fa-user"> Eric Hepperle</i>
+                        <i class="fa fa-calendar"> Mar 8, 2019</i>
                     </div>
                 </div>
 
@@ -133,8 +133,8 @@ include 'inc/dbh.inc.php';
                     <img src="/pix/image1.jpg" alt="" class="slider-image">
                     <div class="post-info">
                         <h4><a href="post-single.php">One day your life will flash before your eyes</a></h4>
-                        <i class="fa fa-user">Eric Hepperle</i>
-                        <i class="fa fa-calendar">Mar 8, 2019</i>
+                        <i class="fa fa-user"> Eric Hepperle</i>
+                        <i class="fa fa-calendar"> Mar 8, 2019</i>
                     </div>
                 </div>
 
@@ -142,8 +142,8 @@ include 'inc/dbh.inc.php';
                     <img src="/pix/image1.jpg" alt="" class="slider-image">
                     <div class="post-info">
                         <h4><a href="post-single.php">One day your life will flash before your eyes</a></h4>
-                        <i class="fa fa-user">Eric Hepperle</i>
-                        <i class="fa fa-calendar">Mar 8, 2019</i>
+                        <i class="fa fa-user"> Eric Hepperle</i>
+                        <i class="fa fa-calendar"> Mar 8, 2019</i>
                     </div>
                 </div>
 
@@ -161,12 +161,12 @@ include 'inc/dbh.inc.php';
                 <div class="post">
                     <img src="pix/image3.jpg" alt="" class="post-image">
                     <div class="post-preview">
-                        <h1><a href="single.html">The strongest and sweetest songs yet remain to be sung</a></h1>
-                        <i class="fa fa-user">Eric Hepperle</i>
+                        <h2><a href="single.html">The strongest and sweetest songs yet remain to be sung</a></h2>
+                        <i class="fa fa-user"> Eric Hepperle</i>
                         &nbsp;
-                        <i class="fa fa-caledar">Mar 11, 2019</i>
+                        <i class="fa fa-calendar"> Mar 11, 2019</i>
                         <p class="preview-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur accusamus, molestias odio rerum eligendi quae?</p>
-                        <a href="single.html" class="btn">Read More</a>
+                        <a href="single.html" class="btn read-more">Read More</a>
                     </div>
                 </div>
 

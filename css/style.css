@@ -386,6 +386,10 @@ header .menu-toggle {
   padding: 0px 5x;
 }
 
+.post-slider .post-wrapper .post .post-info i {
+  font-size: .8rem;
+}
+
 .post-slider .post-wrapper .post .slider-image {
   width: 100%;
   height: 200px;
@@ -418,6 +422,14 @@ header .menu-toggle {
   margin: 10px auto;
   border-radius: 5px;
   background: white;
+  position: relative;
+  border: 1px dashed orange;
+}
+
+.content .main-content .post  .read-more {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
 }
 
 .content .main-content .post .post-image {
@@ -430,6 +442,10 @@ header .menu-toggle {
   width: 60%;
   padding: 10px;
   float: right;
+}
+
+.content .main-content .post .post-preview i {
+  font-size: .8rem;
 }
 
 .content .main-content .recent-post-title {
