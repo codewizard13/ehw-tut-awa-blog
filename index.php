@@ -80,11 +80,14 @@ include 'inc/dbh.inc.php';
             <i class="fas fa-chevron-right next"></i>
 
             <div class="post-wrapper">
-                <div class="post">1</div>
-                <div class="post">2</div>
-                <div class="post">3</div>
-                <div class="post">4</div>
-                <div class="post">5</div>
+                <div class="post">
+                    <img src="/pix/image1.jpg" alt="" class="slider-image">
+                    <div class="post-info">
+                        <h4><a href="post-single.php">One day your life will flash before your eyes</a></h4>
+                        <i class="fa fa-user">Eric Hepperle</i>
+                        <i class="fa fa-calendar">Mar 8, 2019</i>
+                    </div>
+                </div>
             </div>
         </div>
         <!-- // Post Slider -->
