@@ -300,6 +300,13 @@ header .menu-toggle {
 
 
 
+.page-title {
+  background: rgb(255, 232, 98);
+  text-align: center;
+  margin: 0;
+  padding: 1.2rem 1rem 2rem;
+}
+
 
 
 /* ////////// POST SLIDER (SLICK) //////////// */

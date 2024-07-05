@@ -70,7 +70,7 @@ include 'inc/dbh.inc.php';
 
     </header>
 
-    <h1>NO-WP: Old ES Database Tester</h1>
+    <h1 class="page-title">🎓TUTWRK: Designing a blog website HTML/CSS (Awa Melvine)</h1>
 
 
     <!-- PAGE WRAPPER -->
