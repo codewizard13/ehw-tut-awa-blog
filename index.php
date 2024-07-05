@@ -1,7 +1,7 @@
-<?php
-session_start();
-include 'path.php';
-include 'inc/dbh.inc.php';
+<?php 
+    session_start();
+    include 'path.php'; 
+    include 'inc/dbh.inc.php';
 
 /**
  * Author:          Eric Hepperle
@@ -45,8 +45,8 @@ include 'inc/dbh.inc.php';
         <ul class="top-nav">
             <li><a href="#">Home</a>
                 <ul>
-                    <li><a href="#">Landing Page</a></li>
-                    <li><a href="#">Team</a></li>
+                    <li><a href="awa-index.php">Awa Index</a></li>
+                    <li><a href="index.php">Eric Index</a></li>
                 </ul>
             </li>
 
@@ -69,38 +69,10 @@ include 'inc/dbh.inc.php';
 
     <h1>NO-WP: Old ES Database Tester</h1>
 
-
-    <!-- PAGE WRAPPER -->
-    <div class="page-wrapper">
-
-        <!-- Post Slider -->
-        <div class="post-slider">
-            <h1 class="slider-title">Trending Posts</h1>
-            <i class="fas fa-chevron-left prev"></i>
-            <i class="fas fa-chevron-right next"></i>
-
-            <div class="post-wrapper">
-                <div class="post">
-                    <img src="/pix/image1.jpg" alt="" class="slider-image">
-                    <div class="post-info">
-                        <h4><a href="post-single.php">One day your life will flash before your eyes</a></h4>
-                        <i class="fa fa-user">Eric Hepperle</i>
-                        <i class="fa fa-calendar">Mar 8, 2019</i>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- // Post Slider -->
-
-    </div>
-    <!-- // PAGE WRAPPER -->
-
-
-
     <?php
 
     // CONSTANTS
-    
+
 
     // FUNCTIONS
     function remote_file_exists($file_url)
@@ -198,18 +170,6 @@ include 'inc/dbh.inc.php';
 
 
     ?>
-
-    <!-- JQuery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
-        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-    <!-- Slick Carousel / Post Slider -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-				
-
-    <!-- Custom Script -->
-    <script src="js/scripts.js"></script>
 
 </body>
 

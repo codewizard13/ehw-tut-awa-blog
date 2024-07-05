@@ -48,8 +48,8 @@ include 'inc/dbh.inc.php';
         <ul class="top-nav">
             <li><a href="#">Home</a>
                 <ul>
-                    <li><a href="#">Landing Page</a></li>
-                    <li><a href="#">Team</a></li>
+                    <li><a href="awa-index.php">Awa Index</a></li>
+                    <li><a href="index.php">Eric Index</a></li>
                 </ul>
             </li>
 
