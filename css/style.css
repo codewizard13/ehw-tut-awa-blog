@@ -290,6 +290,10 @@ header .menu-toggle {
 
 /* ////////// POST SLIDER (SLICK) //////////// */
 
+.page-wrapper {
+  
+}
+
 .post-slider {
   border: 1px solid red;
   /* clear: both; */
@@ -342,6 +346,7 @@ header .menu-toggle {
 .post-slider .post-wrapper .post .post-info {
   height: 130px;
   border: 1px solid green;
+  padding: 0px 5x;
 }
 
 .post-slider .post-wrapper .post .slider-image {
