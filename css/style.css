@@ -1,3 +1,14 @@
+:root {
+
+/* COLORS */
+--color-teal-dark:  #006669;
+--color-teal-normal:  #008489;
+--color-wild-sand: #f6f6f6; /* very light gray */
+--color-tundora: #444; /* dark gray */
+
+
+}
+
 * {
   box-sizing: border-box;
 }
@@ -8,13 +19,13 @@ body {
   margin: 0 auto;
   border: solid 1px gray;
   font-family: "Roboto", "Open Sans", Arial, Helvetica, sans-serif;
-  background: #f6f6f6;
+  background: var(--color-wild-sand);
   font-family: "Lora", serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Candal', serif;
-  color: #444;
+  color: var(--color-tundoral);
   margin: 5px;
 }
 
@@ -193,7 +204,7 @@ body.single {
 /* ////////// HEADER //////////// */
 
 header {
-  background: #008489;
+  background: var(--color-teal-normal);
   height: 66px;
 }
 
@@ -246,7 +257,7 @@ header ul li ul li {
 
 header ul li ul li a {
   padding: 10px;
-  color: #444;
+  color: var(--color-tundoral);
   background: white;
 }
 
@@ -262,7 +273,7 @@ header ul li a {
 }
 
 header ul li a:hover {
-  background: #006669;
+  background: var(--color-teal-dark);
   transition: 0.5s;
 }
 
@@ -290,8 +301,8 @@ header .menu-toggle {
 
 /* ////////// POST SLIDER (SLICK) //////////// */
 
-.page-wrapper {
-  
+.page-wrapper a:hover {
+  color: var(--color-teal-dark);
 }
 
 .post-slider {
@@ -311,7 +322,7 @@ header .menu-toggle {
   top: 50%;
   left: 30px;
   font-size: 2rem;
-  color: #006669;
+  color: var(--color-teal-dark);
   cursor: pointer;
 }
 .post-slider .next {
@@ -319,7 +330,7 @@ header .menu-toggle {
   top: 50%;
   right: 30px;
   font-size: 2rem;
-  color: #006669;
+  color: var(--color-teal-dark);
   cursor: pointer;
 }
 
@@ -400,7 +411,7 @@ header .menu-toggle {
   } 
 
   header ul li ul li a:hover {
-    background: #006669;
+    background: var(--color-teal-dark);
   }
 
   header .menu-toggle {

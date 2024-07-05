@@ -56,3 +56,4 @@ Notes are located in [./notes/main.md](./notes/main.md)
 - https://docs.emmet.io/cheat-sheet/
 - https://yapanss.github.io/docu_page/
 - https://kenwheeler.github.io/slick/
+- https://stackoverflow.com/questions/23842320/get-all-style-attribute-colors
