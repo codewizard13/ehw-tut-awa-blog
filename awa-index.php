@@ -212,7 +212,33 @@ include 'inc/dbh.inc.php';
             </div>
             <!-- // Main Content -->
 
-            <div class="sidebar"></div>
+            <!-- Sidebar -->
+            <div class="sidebar">
+
+                <div class="section search">
+                    <h2 class="section-title">Search</h2>
+                    <form action="index.html" method="post">
+                        <input type="text" name="search-term" class="text-input" placeholder="Search...">
+                    </form>
+                </div>
+
+
+                <div class="section topics">
+                    <h2 class="section-title">Topics</h2>
+                    <ul>
+                        <li><a href="#">Poems</a></li>
+                        <li><a href="#">Quotes</a></li>
+                        <li><a href="#">Fiction</a></li>
+                        <li><a href="#">Biography</a></li>
+                        <li><a href="#">Motivation</a></li>
+                        <li><a href="#">Inspiration</a></li>
+                        <li><a href="#">Life Lessons</a></li>
+                    </ul>
+
+                </div>
+
+            </div>
+            <!-- // Sidebar -->
 
         </div>
 

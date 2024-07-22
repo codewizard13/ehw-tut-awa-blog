@@ -29,6 +29,8 @@
 
 <br>
 
+![](/pix/screen-elsm-s--DEV-no-wp-700--02--awa-index--ftr-vid-5.jpg)
+
 ## TAGS
 
 `LAMP` `PHP` `Coding` `Site from Scratch` `MySQL` `Blog Site` `Custom Codebase` `Database` `ELSMS`
