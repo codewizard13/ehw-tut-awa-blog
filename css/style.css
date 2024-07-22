@@ -462,8 +462,19 @@ header .menu-toggle {
   width: 30%;
   float: left;
   height: 300px;
-  border: 1px dashed green;
 }
+
+.content .sidebar .section {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.content .sidebar .section.search {
+  margin-top: 80px;
+}
+
 
 
 
