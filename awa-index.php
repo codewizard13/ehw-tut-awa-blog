@@ -6,7 +6,7 @@ include 'inc/dbh.inc.php';
 /**
  * Author:          Eric Hepperle
  * Date Created:    06/21/24
- * Date Modified:   07/03/24
+ * Date Modified:   07/22/24
  * 
  * This is the index.php file based off of Awa's tutorial:
  * - https://www.youtube.com/watch?v=S05EWIHAVcc&list=PL3pyLl-dgiqBSBsC5O5AQHN1UsUk-60nc&ab_channel=AwaMelvine

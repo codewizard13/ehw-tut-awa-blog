@@ -426,10 +426,19 @@ header .menu-toggle {
   border: 1px dashed orange;
 }
 
-.content .main-content .post  .read-more {
+.content .main-content .post .read-more {
   position: absolute;
   bottom: 10px;
   right: 10px;
+  border: 1px solid var(--color-teal-dark);
+  background: transparent;
+  border-radius: 0px;
+  color: var(--color-teal-dark) !important;
+}
+.content .main-content .post .read-more:hover {
+  background: var(--color-teal-dark);
+  color: white !important;
+  transition: .25s;
 }
 
 .content .main-content .post .post-image {
