@@ -51,6 +51,10 @@ Notes are located in [./notes/main.md](./notes/main.md)
 
 ## RESOURCES & REFERENCE
 
+### [Designing a blog website HTML/CSS](https://www.youtube.com/playlist?list=PL3pyLl-dgiqBSBsC5O5AQHN1UsUk-60nc)
+
+### [How to create a blog PHP and MySQL database](https://www.youtube.com/playlist?list=PL3pyLl-dgiqD0eKYJ-XSxrHaRh-zsA2tP)
+
 - Good **Color Names** and Shades website: https://www.html-color-names.com/lightgreen.php
 -  [How to Create a Blog PHP & MySQL database #1 | Login & Signup](https://www.youtube.com/watch?v=ZACNmjjryLo&ab_channel=CodingwithElias)
 - https://www.youtube.com/watch?v=_O3UCmObj5k&ab_channel=JamalProgrammingTips
