@@ -54,6 +54,19 @@ a {
   background: var(--color-teal-btn-dark);
 }
 
+.text-input {
+  padding: .7rem 1rem;
+  display: block;
+  width: 100%;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  outline: none;
+  color: #444;
+  line-height: 1.5rem;
+  font-family: 'Lora', serif;
+}
+
+
 .cards {
   border: solid navy 3px;
   width: 80%;
@@ -221,7 +234,7 @@ body.single {
 
 
 
-/* ////////// HEADER //////////// */
+/* ////////// NAVBAR //////////// */
 
 header {
   background: var(--color-teal-normal);
