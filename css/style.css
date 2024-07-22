@@ -407,23 +407,20 @@ header .menu-toggle {
 .content {
   width: 90%;
   margin: 30px auto 30px;
-  border: solid 1px red;
 }
 
 .content .main-content {
   width: 70%;
   float: left;
-   border: 1px solid blue;
 }
 
 .content .main-content .post {
   width: 95%;
   height: 270px;
-  margin: 10px auto;
+  margin: 20px auto;
   border-radius: 5px;
   background: white;
   position: relative;
-  border: 1px dashed orange;
 }
 
 .content .main-content .post .read-more {
@@ -464,8 +461,8 @@ header .menu-toggle {
 .content .sidebar {
   width: 30%;
   float: left;
-  border: 1px dashed green;
   height: 300px;
+  border: 1px dashed green;
 }
 
 
