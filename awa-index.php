@@ -170,6 +170,45 @@ include 'inc/dbh.inc.php';
                     </div>
                 </div>
 
+                <div class="post">
+                    <img src="pix/image3.jpg" alt="" class="post-image">
+                    <div class="post-preview">
+                        <h2><a href="single.html">The strongest and sweetest songs yet remain to be sung</a></h2>
+                        <i class="fa fa-user"> Eric Hepperle</i>
+                        &nbsp;
+                        <i class="fa fa-calendar"> Mar 11, 2019</i>
+                        <p class="preview-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur accusamus, molestias odio rerum eligendi quae?</p>
+                        <a href="single.html" class="btn read-more">Read More</a>
+                    </div>
+                </div>
+
+
+                <div class="post">
+                    <img src="pix/image3.jpg" alt="" class="post-image">
+                    <div class="post-preview">
+                        <h2><a href="single.html">The strongest and sweetest songs yet remain to be sung</a></h2>
+                        <i class="fa fa-user"> Eric Hepperle</i>
+                        &nbsp;
+                        <i class="fa fa-calendar"> Mar 11, 2019</i>
+                        <p class="preview-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur accusamus, molestias odio rerum eligendi quae?</p>
+                        <a href="single.html" class="btn read-more">Read More</a>
+                    </div>
+                </div>
+
+
+                <div class="post">
+                    <img src="pix/image3.jpg" alt="" class="post-image">
+                    <div class="post-preview">
+                        <h2><a href="single.html">The strongest and sweetest songs yet remain to be sung</a></h2>
+                        <i class="fa fa-user"> Eric Hepperle</i>
+                        &nbsp;
+                        <i class="fa fa-calendar"> Mar 11, 2019</i>
+                        <p class="preview-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur accusamus, molestias odio rerum eligendi quae?</p>
+                        <a href="single.html" class="btn read-more">Read More</a>
+                    </div>
+                </div>
+
+
             </div>
             <!-- // Main Content -->
 
