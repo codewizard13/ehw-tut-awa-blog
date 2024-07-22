@@ -94,7 +94,7 @@ include 'inc/dbh.inc.php';
                 </div>
 
                 <div class="post">
-                    <img src="/pix/image1.jpg" alt="" class="slider-image">
+                    <img src="/pix/071817-Jennifer-LeClaire_320x180.jpg" alt="" class="slider-image">
                     <div class="post-info">
                         <h4><a href="post-single.php">One day your life will flash before your eyes</a></h4>
                         <i class="fa fa-user"> Eric Hepperle</i>
@@ -103,7 +103,7 @@ include 'inc/dbh.inc.php';
                 </div>
 
                 <div class="post">
-                    <img src="/pix/image1.jpg" alt="" class="slider-image">
+                    <img src="/pix/120517-Heidi-Baker_320x180.jpg" alt="" class="slider-image">
                     <div class="post-info">
                         <h4><a href="post-single.php">One day your life will flash before your eyes</a></h4>
                         <i class="fa fa-user"> Eric Hepperle</i>
@@ -112,7 +112,7 @@ include 'inc/dbh.inc.php';
                 </div>
 
                 <div class="post">
-                    <img src="/pix/image1.jpg" alt="" class="slider-image">
+                    <img src="/pix/011918-Robert-Henderson_320x180.jpg" alt="" class="slider-image">
                     <div class="post-info">
                         <h4><a href="post-single.php">One day your life will flash before your eyes</a></h4>
                         <i class="fa fa-user"> Eric Hepperle</i>
@@ -121,7 +121,7 @@ include 'inc/dbh.inc.php';
                 </div>
 
                 <div class="post">
-                    <img src="/pix/image1.jpg" alt="" class="slider-image">
+                    <img src="/pix/Charlie-Shamp_320x180.jpg" alt="" class="slider-image">
                     <div class="post-info">
                         <h4><a href="post-single.php">One day your life will flash before your eyes</a></h4>
                         <i class="fa fa-user"> Eric Hepperle</i>
@@ -171,7 +171,7 @@ include 'inc/dbh.inc.php';
                 </div>
 
                 <div class="post">
-                    <img src="pix/image3.jpg" alt="" class="post-image">
+                    <img src="pix/image2.jpg" alt="" class="post-image">
                     <div class="post-preview">
                         <h2><a href="single.html">The strongest and sweetest songs yet remain to be sung</a></h2>
                         <i class="fa fa-user"> Eric Hepperle</i>
@@ -184,7 +184,7 @@ include 'inc/dbh.inc.php';
 
 
                 <div class="post">
-                    <img src="pix/image3.jpg" alt="" class="post-image">
+                    <img src="pix/image1.jpg" alt="" class="post-image">
                     <div class="post-preview">
                         <h2><a href="single.html">The strongest and sweetest songs yet remain to be sung</a></h2>
                         <i class="fa fa-user"> Eric Hepperle</i>
@@ -197,7 +197,7 @@ include 'inc/dbh.inc.php';
 
 
                 <div class="post">
-                    <img src="pix/image3.jpg" alt="" class="post-image">
+                    <img src="pix/011918-Robert-Henderson_320x180.jpg" alt="" class="post-image">
                     <div class="post-preview">
                         <h2><a href="single.html">The strongest and sweetest songs yet remain to be sung</a></h2>
                         <i class="fa fa-user"> Eric Hepperle</i>
