@@ -22,11 +22,13 @@ html, body {
 body {
   width: 80vw;
   max-width: 1400px;
+  min-height: 100vh;
   margin: 0 auto;
-  border: solid 1px gray;
   font-family: "Roboto", "Open Sans", Arial, Helvetica, sans-serif;
   background: var(--color-wild-sand);
   font-family: "Lora", serif;
+  padding: 1rem;
+  /* border: solid #686868 3px; */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -347,6 +349,11 @@ header .menu-toggle {
 
 
 /* ////////// POST SLIDER (SLICK) //////////// */
+
+.page-wrapper {
+  min-height: 100%;
+  border: solid 2px blue;
+}
 
 .page-wrapper a:hover {
   color: var(--color-teal-dark);
