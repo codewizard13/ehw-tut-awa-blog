@@ -269,7 +269,24 @@ include 'inc/dbh.inc.php';
                 </div>
             </div>
 
-            <div class="footer-section links"></div>
+            <div class="footer-section links">
+                <h2>Quick Links</h2>
+                <br>
+                <ul>
+                    <a href="">
+                        <li>Events</li>
+                    </a><a href="">
+                        <li>Team</li>
+                    </a><a href="">
+                        <li>Mentors</li>
+                    </a><a href="">
+                        <li>Gallery</li>
+                    </a><a href="">
+                        <li>Terms and Conditions</li>
+                    </a>
+                </ul>
+            </div>
+
             <div class="footer-section contact-form"></div>
         </div>
 
