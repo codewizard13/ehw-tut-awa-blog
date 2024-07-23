@@ -63,6 +63,7 @@ a {
   outline: none;
   color: #444;
   line-height: 1.5rem;
+  font-size: 1.2rem;
   font-family: 'Lora', serif;
 }
 
@@ -488,7 +489,24 @@ header .menu-toggle {
   margin-top: 80px;
 }
 
+.content .sidebar .section.topics ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  border-top: 1px solid #e0e0e0;
+}
 
+.content .sidebar .section.topics ul li a {
+  display: block;
+  padding: 15px 0px;
+  border-bottom: 1px solid #e0e0e0;
+  transition: all 0.3s;
+}
+
+.content .sidebar .section.topics ul li a:hover {
+  padding-left: 10px;
+  transition: all 0.3s;
+}
 
 
 
