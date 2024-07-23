@@ -251,7 +251,11 @@ include 'inc/dbh.inc.php';
 
     <!-- Footer -->
     <div class="footer">
-        <div class="footer-content"></div>
+        <div class="footer-content">
+            <div class="footer-section about"></div>
+            <div class="footer-section links"></div>
+            <div class="footer-section contact-form"></div>
+        </div>
 
         <div class="footer-bottom">
             &copy; erichepperle.com | Designed by Eric Hepperle
