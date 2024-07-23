@@ -485,6 +485,11 @@ header .menu-toggle {
   margin-bottom: 20px;
 }
 
+.content .sidebar .section .section-title {
+  margin: 10px 0px;
+}
+
+
 .content .sidebar .section.search {
   margin-top: 80px;
 }
