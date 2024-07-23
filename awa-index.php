@@ -287,7 +287,20 @@ include 'inc/dbh.inc.php';
                 </ul>
             </div>
 
-            <div class="footer-section contact-form"></div>
+            <div class="footer-section contact-form">
+                <h2>Contact us</h2>
+                <br>
+                <form action="awa-index.php" method="post">
+                    <input type="email" name="email" class="text-input contact-input" placeholder="Your email address...">
+                    <textarea name="message" class="text-input contact-input" placeholder="Your message..."></textarea>
+                    <button type="submit" class="btn btn-big">
+                        <i class="fas fa-envelope"></i>
+                        Send
+                    </button>
+                </form>
+            </div>
+
+
         </div>
 
         <div class="footer-bottom">
