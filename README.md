@@ -29,7 +29,7 @@
 
 <br>
 
-![](/pix/screen-elsm-s--DEV-no-wp-700--02--awa-index--ftr-vid-5.jpg)
+![](/pix/screen-elsm-s--DEV-no-wp-700--03--awa-index--ftr-vid-6-sidebar.jpg)
 
 ## TAGS
 
