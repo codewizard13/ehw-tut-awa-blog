@@ -547,6 +547,15 @@ header .menu-toggle {
   padding: 25px;
 }
 
+.footer .footer-content h1,
+.footer .footer-content h2 {
+  color: white;
+}
+
+.footer .footer-content .about h1 span {
+  color: var(--color-teal-bright);
+}
+
 .footer .footer-bottom {
   background: #343a40;
   color: #686868;
