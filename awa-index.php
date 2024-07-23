@@ -252,7 +252,23 @@ include 'inc/dbh.inc.php';
     <!-- Footer -->
     <div class="footer">
         <div class="footer-content">
-            <div class="footer-section about"></div>
+            <div class="footer-section about">
+                <h1 class="logo-text"><span>Eric</span>Inspires</h1>
+                <p>
+                    EricInspires is a fictional blog conceived for the purpose of a tutorial on YouTube. However, Eric has a blog called erichepperle.com where he writes truly inspiring stuff.
+                </p>
+                <div class="contact">
+                    <span><i class="fas fa-phone"></i> &nbsp; 123-456-7890</span>
+                    <span><i class="fas fa-envelope"></i> &nbsp; info@erichepperle.com</span>
+                </div>
+                <div class="socials">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+
             <div class="footer-section links"></div>
             <div class="footer-section contact-form"></div>
         </div>
