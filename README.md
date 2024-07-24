@@ -29,7 +29,12 @@
 
 <br>
 
+**awa-index.php: Top / header**:
+
 ![awa-index.php: Top / header](/pix/screen-elsm-s--DEV-no-wp-700--03--awa-index--ftr-vid-6-sidebar.jpg)
+
+**awa-index.php: Bottom / footer**:
+
 ![awa-index.php: Bottom / footer](/pix/screen-elsm-s--DEV-no-wp-700--04--awa-index--ftr-vid-8-footer.jpg)
 
 
