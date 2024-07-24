@@ -124,23 +124,23 @@ include 'inc/dbh.inc.php';
         <div class="section popular">
           <h2 class="section-title">Popular</h2>
 
-          <div class="post">
+          <div class="post clearfix">
             <img src="pix/10317-JesseShamp_320x180.jpg" alt="">
             <a href="#" class="title">How to overcome your fears</a>
           </div>
-          <div class="post">
+          <div class="post clearfix">
             <img src="pix/10317-JesseShamp_320x180.jpg" alt="">
             <a href="#" class="title">How to overcome your fears</a>
           </div>
-          <div class="post">
+          <div class="post clearfix">
             <img src="pix/10317-JesseShamp_320x180.jpg" alt="">
             <a href="#" class="title">How to overcome your fears</a>
           </div>
-          <div class="post">
+          <div class="post clearfix">
             <img src="pix/10317-JesseShamp_320x180.jpg" alt="">
             <a href="#" class="title">How to overcome your fears</a>
           </div>
-          <div class="post">
+          <div class="post clearfix">
             <img src="pix/10317-JesseShamp_320x180.jpg" alt="">
             <a href="#" class="title">How to overcome your fears</a>
           </div>
@@ -150,7 +150,7 @@ include 'inc/dbh.inc.php';
 
         <!-- Topics -->
         <div class="section topics">
-          
+
           <h2 class="section-title">Topics</h2>
           <ul>
             <li><a href="#">Poems</a></li>
