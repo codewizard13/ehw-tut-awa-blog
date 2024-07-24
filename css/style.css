@@ -613,6 +613,8 @@ header .menu-toggle {
 
 .footer .footer-content .contact-form .contact-btn {
   float: right;
+  font-size: 1.1rem;
+  font-family: 'Lora', serif;
 }
 
 
