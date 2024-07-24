@@ -37,6 +37,10 @@
 
 ![awa-index.php: Bottom / footer](/pix/screen-elsm-s--DEV-no-wp-700--04--awa-index--ftr-vid-8-footer.jpg)
 
+**single.php**
+
+![awa single.php](pix/screen-elsm-s--DEV-no-wp-700--05--awa-single--ftr-vid-9-single.jpg)
+
 
 ## TAGS
 
