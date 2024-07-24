@@ -293,7 +293,7 @@ include 'inc/dbh.inc.php';
                 <form action="awa-index.php" method="post">
                     <input type="email" name="email" class="text-input contact-input" placeholder="Your email address...">
                     <textarea name="message" class="text-input contact-input" placeholder="Your message..."></textarea>
-                    <button type="submit" class="btn btn-big">
+                    <button type="submit" class="btn btn-big contact-btn">
                         <i class="fas fa-envelope"></i>
                         Send
                     </button>
