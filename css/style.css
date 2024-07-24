@@ -562,6 +562,18 @@ header .menu-toggle {
   margin-bottom: 8px;
 }
 
+.footer .footer-content .about .socials a {
+  border: 1px solid gray;
+  width: 45px;
+  height: 41px;
+  padding-top: 5px;
+  margin-right: 5px;
+  text-align: center;
+  display: inline-block;
+  font-size: 1.3rem;
+  border-radius: 5px;
+}
+
 .footer .footer-bottom {
   background: #343a40;
   color: #686868;
