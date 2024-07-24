@@ -466,6 +466,19 @@ header .menu-toggle {
   position: relative;
 }
 
+.content .popular .post {
+  border-top: 1px solid #e0e0e0;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.content .popular .post img {
+  height: 60px;
+  width: 75px;
+  float: left;
+  margin-right: 10px;
+}
+
 .content .main-content .post .read-more {
   position: absolute;
   bottom: 10px;
