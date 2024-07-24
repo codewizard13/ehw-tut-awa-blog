@@ -445,6 +445,13 @@ header .menu-toggle {
   float: left;
 }
 
+.content .main-content.single {
+  background: white;
+  padding: 20px 50px;
+  font-size: 1.1rem;
+}
+
+
 .content .main-content .post {
   width: 95%;
   height: 270px;
@@ -493,6 +500,10 @@ header .menu-toggle {
   width: 30%;
   float: left;
   height: 300px;
+}
+
+.content .sidebar.single {
+  padding: 0px 10px;
 }
 
 .content .sidebar .section {

@@ -70,7 +70,7 @@ include 'inc/dbh.inc.php';
     <div class="content clearfix">
 
       <!-- Main Content -->
-      <div class="main-content">
+      <div class="main-content single">
         <h1 class="post-title">This is the title of the Post</h1>
 
 
@@ -79,7 +79,7 @@ include 'inc/dbh.inc.php';
 
 
       <!-- Sidebar -->
-      <div class="sidebar">
+      <div class="sidebar single">
 
         <div class="section topics">
           <h2 class="section-title">Topics</h2>
