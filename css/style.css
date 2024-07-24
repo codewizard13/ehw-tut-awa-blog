@@ -581,6 +581,19 @@ header .menu-toggle {
   transition: all .3s;
 }
 
+.footer .footer-content .links ul a {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  transition: all .3s;
+}
+
+.footer .footer-content .links ul a:hover {
+  color: white;
+  margin-left: 15px;
+  transition: all .3s;
+}
+
 
 .footer .footer-bottom {
   background: #343a40;
