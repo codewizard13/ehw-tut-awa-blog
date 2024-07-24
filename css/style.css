@@ -55,6 +55,12 @@ a {
   border: 1px solid transparent;
   border-radius: .25rem;
 }
+
+.btn-big {
+  padding: .7rem 1.3rem;
+  line-height: 1.3rem;
+}
+
 .btn:hover {
   color: white !important;
   background: var(--color-teal-btn-dark);
