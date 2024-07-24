@@ -594,7 +594,22 @@ header .menu-toggle {
   transition: all .3s;
 }
 
+.footer .footer-content .contact-form .contact-input {
+  background: #272727;
+  color: #bebdbd;
+  margin-bottom: 10px;
+  line-height: 1.5rem;
+  padding: .9rem 1.4rem;
+  border: none;
+}
 
+.footer .footer-content .contact-form .contact-input:focus {
+  background: #1a1a1a;
+}
+
+
+
+/* FOOTER BOTTOM */
 .footer .footer-bottom {
   background: #343a40;
   color: #686868;
