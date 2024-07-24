@@ -73,6 +73,23 @@ include 'inc/dbh.inc.php';
       <div class="main-content single">
         <h1 class="post-title">This is the title of the Post</h1>
 
+        <div class="post-content">
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum quas corporis, quibusdam maiores reiciendis sapiente?</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique veritatis perspiciatis, odio quis sint facilis ex dolorum. Deleniti magni temporibus amet numquam, animi rerum sequi sit fugit aliquid enim maxime?</p>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe, aperiam! Vel odio sint quos. Iure a optio tenetur doloremque veniam quisquam, dolores itaque alias, explicabo distinctio cupiditate sequi quasi sint odio provident vero molestiae totam dolor. Aut sequi facere praesentium.</p>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa, aut.</p>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum quas corporis, quibusdam maiores reiciendis sapiente?</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique veritatis perspiciatis, odio quis sint facilis ex dolorum. Deleniti magni temporibus amet numquam, animi rerum sequi sit fugit aliquid enim maxime?</p>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe, aperiam! Vel odio sint quos. Iure a optio tenetur doloremque veniam quisquam, dolores itaque alias, explicabo distinctio cupiditate sequi quasi sint odio provident vero molestiae totam dolor. Aut sequi facere praesentium.</p>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa, aut.</p>          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum quas corporis, quibusdam maiores reiciendis sapiente?</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique veritatis perspiciatis, odio quis sint facilis ex dolorum. Deleniti magni temporibus amet numquam, animi rerum sequi sit fugit aliquid enim maxime?</p>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe, aperiam! Vel odio sint quos. Iure a optio tenetur doloremque veniam quisquam, dolores itaque alias, explicabo distinctio cupiditate sequi quasi sint odio provident vero molestiae totam dolor. Aut sequi facere praesentium.</p>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa, aut.</p>          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum quas corporis, quibusdam maiores reiciendis sapiente?</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique veritatis perspiciatis, odio quis sint facilis ex dolorum. Deleniti magni temporibus amet numquam, animi rerum sequi sit fugit aliquid enim maxime?</p>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe, aperiam! Vel odio sint quos. Iure a optio tenetur doloremque veniam quisquam, dolores itaque alias, explicabo distinctio cupiditate sequi quasi sint odio provident vero molestiae totam dolor. Aut sequi facere praesentium.</p>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa, aut.</p>          
+        </div>
+
 
       </div>
       <!-- // Main Content -->
