@@ -572,7 +572,15 @@ header .menu-toggle {
   display: inline-block;
   font-size: 1.3rem;
   border-radius: 5px;
+  transition: all .3s;
 }
+
+.footer .footer-content .about .socials a:hover {
+  border: 1px solid white;
+  color: white;
+  transition: all .3s;
+}
+
 
 .footer .footer-bottom {
   background: #343a40;
