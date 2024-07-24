@@ -452,6 +452,10 @@ header .menu-toggle {
   border-radius: 5px;
 }
 
+.content .main-content.single .post-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
 
 .content .main-content .post {
   width: 95%;
