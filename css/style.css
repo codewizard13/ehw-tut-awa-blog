@@ -17,12 +17,13 @@
 
 html, body {
   height: 100%;
+  
 }
 
 body {
   width: 80vw;
   max-width: 1400px;
-  min-height: 100vh;
+  height: 100vh;
   margin: 0 auto;
   font-family: "Roboto", "Open Sans", Arial, Helvetica, sans-serif;
   background: var(--color-wild-sand);
@@ -358,7 +359,6 @@ header .menu-toggle {
 
 .page-wrapper {
   min-height: 100%;
-  border: solid 2px blue;
 }
 
 .page-wrapper a:hover {
@@ -542,14 +542,12 @@ header .menu-toggle {
 }
 
 .footer .footer-content {
-  border: 1px solid red;
   height: 350px;
   display: flex;
 }
 
 .footer .footer-content .footer-section {
   flex: 1;
-  border: 1px solid white;
   padding: 25px;
 }
 
