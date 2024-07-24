@@ -126,23 +126,33 @@ include 'inc/dbh.inc.php';
 
           <div class="post clearfix">
             <img src="pix/10317-JesseShamp_320x180.jpg" alt="">
-            <a href="#" class="title">How to overcome your fears</a>
+            <a href="#" class="title">
+              <h4>How to overcome your fears</h4>
+            </a>
           </div>
           <div class="post clearfix">
             <img src="pix/10317-JesseShamp_320x180.jpg" alt="">
-            <a href="#" class="title">How to overcome your fears</a>
+            <a href="#" class="title">
+              <h4>How to overcome your fears</h4>
+            </a>
           </div>
           <div class="post clearfix">
             <img src="pix/10317-JesseShamp_320x180.jpg" alt="">
-            <a href="#" class="title">How to overcome your fears</a>
+            <a href="#" class="title">
+              <h4>How to overcome your fears</h4>
+            </a>
           </div>
           <div class="post clearfix">
             <img src="pix/10317-JesseShamp_320x180.jpg" alt="">
-            <a href="#" class="title">How to overcome your fears</a>
+            <a href="#" class="title">
+              <h4>How to overcome your fears</h4>
+            </a>
           </div>
           <div class="post clearfix">
             <img src="pix/10317-JesseShamp_320x180.jpg" alt="">
-            <a href="#" class="title">How to overcome your fears</a>
+            <a href="#" class="title">
+              <h4>How to overcome your fears</h4>
+            </a>
           </div>
 
         </div>
