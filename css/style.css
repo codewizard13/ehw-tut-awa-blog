@@ -556,6 +556,12 @@ header .menu-toggle {
   color: var(--color-teal-bright);
 }
 
+.footer .footer-content .about .contact span {
+  display: block;
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+
 .footer .footer-bottom {
   background: #343a40;
   color: #686868;
