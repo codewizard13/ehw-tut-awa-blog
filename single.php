@@ -71,9 +71,12 @@ include 'inc/dbh.inc.php';
 
       <!-- Main Content -->
       <div class="main-content">
+        <h1 class="post-title">This is the title of the Post</h1>
+
 
       </div>
       <!-- // Main Content -->
+
 
       <!-- Sidebar -->
       <div class="sidebar">
