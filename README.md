@@ -84,3 +84,5 @@ Notes are located in [./notes/main.md](./notes/main.md)
 - https://kenwheeler.github.io/slick/
 - https://stackoverflow.com/questions/23842320/get-all-style-attribute-colors
 - https://careerkarma.com/blog/git-remove-remote/
+- https://xenovation.com/blog/source-control-management/git/push-code-into-two-git-remote-repositories
+- [How to push to multiple git remotes at once. Useful if you keep mirrors of your repo](https://gist.github.com/rvl/c3f156e117e22a25f242)
