@@ -86,3 +86,4 @@ Notes are located in [./notes/main.md](./notes/main.md)
 - https://careerkarma.com/blog/git-remove-remote/
 - https://xenovation.com/blog/source-control-management/git/push-code-into-two-git-remote-repositories
 - [How to push to multiple git remotes at once. Useful if you keep mirrors of your repo](https://gist.github.com/rvl/c3f156e117e22a25f242)
+- https://jeffkreeftmeijer.com/git-multiple-remotes/
