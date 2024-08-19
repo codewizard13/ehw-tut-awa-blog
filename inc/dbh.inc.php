@@ -6,7 +6,9 @@
 
 // CONNECTION
 
-$host_name = 'localhost:10028';
+$db_port = "10010";
+
+$host_name = 'localhost:' . $db_port;
 $database = 'dbs11290831';
 $user_name = 'root';
 $password = 'root';
