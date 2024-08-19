@@ -44,12 +44,14 @@
 
 ## TAGS
 
-`LAMP` `PHP` `Coding` `Site from Scratch` `MySQL` `Blog Site` `Custom Codebase` `Database` `ELSMS`
+`LAMP` `PHP` `Coding` `From Scratch` `MySQL` `Blog Site` `Custom Codebase` `Database` `ELSMS`
 
 
 ## PURPOSE
 
 This repo is to help me learn how to code a LAMP/PHP/MySQL WordPress-like blog from scratch. We are only pushing the files, not the database.
+
+My approach is to follow Awa's tutorial on building a blog site with HTML/CSS/JavaScript, then since he builds off of that in his LAMP/PHP tutorial, I will follow that. In the end, I hope to have a greater understanding of best practices for LAMP site development from scratch
 
 # PLUGINS & DEPENDENCIES
 
